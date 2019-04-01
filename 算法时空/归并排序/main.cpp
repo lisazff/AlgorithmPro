@@ -98,7 +98,6 @@ void merge_sort_up2down(int a[], int start, int end)
 void merge_groups(int a[], int len, int gap)
 {
     int i;
-    int twolen = 2 * gap;    // 两个相邻的子数组的长度
     
     // 将"每2个相邻的子数组" 进行合并排序。
     for(i = 0; i+2*gap-1 < len; i+=(2*gap))
@@ -132,7 +131,7 @@ void merge_sort_down2up(int a[], int len)
         merge_groups(a, len, n);
 }
 
-void main()
+int  main()
 {
     int i;
     int a[] = {80,30,60,40,20,10,50,70};
@@ -144,10 +143,12 @@ void main()
     printf("\n");
     
     merge_sort_up2down(a, 0, ilen-1);        // 归并排序(从上往下)
-    //merge_sort_down2up(a, ilen);            // 归并排序(从下往上)
+    
+//    merge_sort_down2up(a, ilen);            // 归并排序(从下往上)
     
     printf("after  sort:");
     for (i=0; i<ilen; i++)
         printf("%d ", a[i]);
     printf("\n");
+    return 0;
 }

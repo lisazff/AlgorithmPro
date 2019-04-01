@@ -373,6 +373,7 @@
 		0A2EEAE1224A21AA00E5EDB4 /* Graph-Representation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Graph-Representation"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A316A752251F5400090B66F /* 直接插入排序.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "直接插入排序.pdf"; sourceTree = "<group>"; };
 		0A316A762251F8090090B66F /* 选择排序.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "选择排序.pdf"; sourceTree = "<group>"; };
+		0A316A77225211610090B66F /* 归并排序.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "归并排序.pdf"; sourceTree = "<group>"; };
 		0A3D870D223F7ED0005F499E /* 堆排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "堆排序"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3D870F223F7ED0005F499E /* main1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main1.cpp; sourceTree = "<group>"; };
 		0A3D8718223F9F0D005F499E /* 快速排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "快速排序"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -682,6 +683,7 @@
 			isa = PBXGroup;
 			children = (
 				0A26E8952240CE860085682A /* main.cpp */,
+				0A316A77225211610090B66F /* 归并排序.pdf */,
 			);
 			path = "归并排序";
 			sourceTree = "<group>";
