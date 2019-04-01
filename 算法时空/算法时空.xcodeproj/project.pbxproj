@@ -371,6 +371,7 @@
 		0A2EEADA224A04B800E5EDB4 /* FileOps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileOps.h; sourceTree = "<group>"; };
 		0A2EEADB224A04B800E5EDB4 /* SequenceST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SequenceST.h; sourceTree = "<group>"; };
 		0A2EEAE1224A21AA00E5EDB4 /* Graph-Representation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Graph-Representation"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A316A752251F5400090B66F /* 直接插入排序.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "直接插入排序.pdf"; sourceTree = "<group>"; };
 		0A3D870D223F7ED0005F499E /* 堆排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "堆排序"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3D870F223F7ED0005F499E /* main1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main1.cpp; sourceTree = "<group>"; };
 		0A3D8718223F9F0D005F499E /* 快速排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "快速排序"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -925,6 +926,7 @@
 			isa = PBXGroup;
 			children = (
 				0A9CB1F2223B8D1C0079C561 /* main.cpp */,
+				0A316A752251F5400090B66F /* 直接插入排序.pdf */,
 			);
 			path = "插入排序";
 			sourceTree = "<group>";
