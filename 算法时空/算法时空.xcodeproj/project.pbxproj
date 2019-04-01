@@ -379,6 +379,8 @@
 		0A3D8725223FA25B005F499E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0A3D872E223FA327005F499E /* 希尔排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "希尔排序"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3D8730223FA327005F499E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0A8B0E602251E87F00E60A23 /* 冒泡排序.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "冒泡排序.pdf"; sourceTree = "<group>"; };
+		0A8B0E612251EE9E00E60A23 /* 快速排序.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "快速排序.pdf"; sourceTree = "<group>"; };
 		0A913D1222487C2500D8C790 /* leetcode-100相同的树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-100相同的树"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A913D1422487C2500D8C790 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0A9B4F10224B2561009C10C5 /* Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Path.h; sourceTree = "<group>"; };
@@ -809,6 +811,7 @@
 			isa = PBXGroup;
 			children = (
 				0A3D871A223F9F0D005F499E /* main.cpp */,
+				0A8B0E612251EE9E00E60A23 /* 快速排序.pdf */,
 			);
 			path = "快速排序";
 			sourceTree = "<group>";
@@ -817,6 +820,7 @@
 			isa = PBXGroup;
 			children = (
 				0A3D8725223FA25B005F499E /* main.cpp */,
+				0A8B0E602251E87F00E60A23 /* 冒泡排序.pdf */,
 			);
 			path = "冒泡排序";
 			sourceTree = "<group>";

@@ -43,6 +43,41 @@ void quickSort(int* a, int l, int r)
     }
 }
 
+
+int partition(int arr[], int left, int right)  //找基准数 划分
+{
+    int i = left + 1 ;
+    int j = right;
+    int temp = arr[left];
+    
+    while(i <= j)
+    {
+        while (arr[i] < temp)
+        {
+            i++;
+        }
+        while (arr[j] > temp )
+        {
+            j--;
+        }
+        if (i < j)
+            swap(arr[i++], arr[j--]);
+        else i++;
+    }
+    swap(arr[j], arr[left]);
+    return j;
+    
+}
+
+void quick_sort(int arr[], int left, int right)
+{
+    if (left > right)
+        return;
+    int j = partition(arr, left, right);
+    quick_sort(arr, left, j - 1);
+    quick_sort(arr, j + 1, right);
+}
+
 int main()
 {
     int i;
@@ -54,7 +89,9 @@ int main()
         cout << a[i] << " ";
     cout << endl;
     
-    quickSort(a, 0, ilen-1);
+//    quickSort(a, 0, ilen-1);
+    
+    quick_sort(a, 0, ilen-1);
     
     cout << "after  sort:";
     for (i=0; i<ilen; i++)
