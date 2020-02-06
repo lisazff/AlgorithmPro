@@ -50,11 +50,11 @@ using namespace std;
 
 #include<iostream>
 using namespace std;
-struct Node{
+struct StructNode{
     int data;
-    Node *left;
-    Node *right;
-    Node(int data)
+    StructNode *left;
+    StructNode *right;
+    StructNode(int data)
     {
         this->data=data;
         this->left=NULL;
@@ -65,26 +65,26 @@ struct Node{
 class BinTree{
 public:
     
-    Node *root;
-    Node* CreateTree();
-    void preOrder(Node *r);//递归实现先序遍历
-    void InOrder(Node *r);//递归实现中序遍历
-    void PostOrder(Node *r);//递归实现后续遍历
-    bool isSameTree(Node* p, Node* q);
+    StructNode *root;
+    StructNode* CreateTree();
+    void preOrder(StructNode *r);//递归实现先序遍历
+    void InOrder(StructNode *r);//递归实现中序遍历
+    void PostOrder(StructNode *r);//递归实现后续遍历
+    bool isSameTree(StructNode* p, StructNode* q);
 };
 
 //创建一棵二叉树
-Node* BinTree::CreateTree(){
+StructNode* BinTree::CreateTree(){
     
-    Node *p1=new Node(1);
-    Node *p2=new Node(2);
-    Node *p3=new Node(3);
-    Node *p4=new Node(4);
-    Node *p5=new Node(5);
-    Node *p6=new Node(6);
-    Node *p7=new Node(7);
-    Node *p8=new Node(8);
-    Node *p9=new Node(9);
+    StructNode *p1=new StructNode(1);
+    StructNode *p2=new StructNode(2);
+    StructNode *p3=new StructNode(3);
+    StructNode *p4=new StructNode(4);
+    StructNode *p5=new StructNode(5);
+    StructNode *p6=new StructNode(6);
+    StructNode *p7=new StructNode(7);
+    StructNode *p8=new StructNode(8);
+    StructNode *p9=new StructNode(9);
     p1->left=p2;
     p1->right=p3;
     p2->left=p4;
@@ -98,7 +98,7 @@ Node* BinTree::CreateTree(){
 }
 
 //递归实现先序遍历
-void BinTree::preOrder(Node *r){
+void BinTree::preOrder(StructNode *r){
     if(r==NULL){
         return ;
     }else{
@@ -109,7 +109,7 @@ void BinTree::preOrder(Node *r){
 }
 
 //递归实现中序遍历
-void BinTree::InOrder(Node *r){
+void BinTree::InOrder(StructNode *r){
     if(r==NULL){
         return ;
     }
@@ -121,7 +121,7 @@ void BinTree::InOrder(Node *r){
 }
 
 //递归实现后序遍历
-void BinTree::PostOrder(Node *r){
+void BinTree::PostOrder(StructNode *r){
     if(r==NULL){
         return ;
     }
@@ -132,7 +132,7 @@ void BinTree::PostOrder(Node *r){
     }
 }
 
-bool isSameTree(Node* p, Node* q) {
+bool isSameTree(StructNode* p, StructNode* q) {
     
     if (p == NULL && q == NULL)
         return true;

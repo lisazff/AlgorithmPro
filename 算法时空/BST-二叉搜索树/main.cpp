@@ -761,14 +761,13 @@ int main(int argc, const char * argv[]) {
     node9->left = node6;
     node9->right = node8;
     
-    cout << Solution().pathSum(node9, 8) << endl;
+//    cout << Solution().pathSum(node9, 8) << endl;
     
-    binarySearch();
+//    binarySearch();
     
     BSTTest();
     
-    
-    BTSSearchTest();
+//    BTSSearchTest();
     
     return 0;
 }

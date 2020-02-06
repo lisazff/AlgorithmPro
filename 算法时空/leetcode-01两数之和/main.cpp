@@ -52,6 +52,22 @@ public:
         return result;
     }
     
+    vector<int> twoSums(vector<int>& nums, int target) {
+        unordered_map<int,int> record;
+        vector<int> result;
+        for(int i = 0 ; i < nums.size() ; i ++){
+            int complement = target - nums[i];
+            if(record.find(complement) != record.end()){
+                int res[] = {i, record[complement]};
+                return vector<int>(res, res + 2);
+            }
+            
+            record[nums[i]] = i;
+        }
+        return result;
+    }
+    
+    
     
     vector<int> twoNumWithMap(vector<int> &numbers,int target){
         unordered_map<int, int> m;
@@ -94,8 +110,8 @@ int main()
   
     
     nums.push_back(2);
-    nums.push_back(7);
     nums.push_back(11);
+    nums.push_back(7);
     nums.push_back(15);
     
     for (int i = 0; i < nums.size(); i++)
@@ -105,7 +121,7 @@ int main()
     
      cout << endl;
 //    result = sol.twoSum(nums, 19);
-    result = sol.twoSum(nums, 9);
+    result = sol.twoSums(nums, 9);
     result1 = sol.twoNumWithMap(nums, 26);
     //result = sol.twoSum(nums, 19);
     for (int i = 0; i < result.size(); i++)
@@ -113,11 +129,19 @@ int main()
         cout << result[i] << endl;
     }
       cout << endl;
+    
     for (int i = 0; i < result1.size(); i++)
     {
         cout << result1[i] << endl;
     }
- 
+
      cout << endl;
+    
+    
+    int a[6]={1,2,3,4,5,6};
+    vector<int> b(a,a+4);
+    for(int i=0;i<=b.size()-1;i++)
+        cout<<b[i]<<" ";
+    
     return 0;
 }

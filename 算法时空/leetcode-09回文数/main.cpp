@@ -29,11 +29,12 @@
 
 #include <iostream>
 #include <vector>
+#include <string>
 
 using namespace std;
-
 class Solution {
 public:
+    //将数倒转
     bool isPalindrome(int x) {
         if (x < 0)return false;
         if (x >= 0 && x < 10)return true;
@@ -48,11 +49,47 @@ public:
         if (temp == xx)return true;
         else return false;
     }
+    
+    bool isPalindromes(int x) {
+        //边界判断
+        if (x < 0) return false;
+        int div = 1;
+        while (x / div >= 10) div *= 10;
+        while (x > 0) {
+            int left = x / div;
+            int right = x % 10;
+            if (left != right) return false;
+            x = (x % div) / 10;
+            div /= 100;
+        }
+        return true;
+    }
+    
+    // 转字符串
+    bool isPalindromess (int x) {
+        string tmp=to_string(x);
+        string tmp2=tmp;
+        reverse(tmp2.begin(),tmp2.end());
+        if(tmp==tmp2) return true;
+        return false;
+    }
+    
+    //利用vector，直接比较首尾
+    bool isPalindromesss (int x) {
+        if(x<0) return false;
+        if(x/10==0) return true;
+        vector<int> tmp;
+        while(x>0){
+            tmp.emplace_back(x%10);
+            x=x/10;
+        }
+        for(long i=tmp.size()-1,j=0;static_cast<void>(i>0),j<i;i--,j++)
+            if(tmp[i]!=tmp[j]) return false;
+        return true;
+    }
 };
 
 int main(int argc, const char * argv[]) {
-    
-    
     Solution sol;
     
     int num  =  121;

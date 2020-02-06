@@ -42,7 +42,6 @@ using namespace std;
 
 int removeDuplicates(vector<int>& nums) {
     int i = !nums.empty();
-    cout << i <<endl;
     cout<<endl;
     for (int n : nums){
         if (n > nums[i-1]){
@@ -51,6 +50,24 @@ int removeDuplicates(vector<int>& nums) {
     }
     return i;
 }
+
+class Solution {
+public:
+    long removeDuplicates(vector<int>& nums) {
+        if (nums.empty()) return 0;
+        long pre = 0, cur = 0, n = nums.size();
+        while (cur < n) {
+            if (nums[pre] == nums[cur]){
+              cur++;
+            } else{
+                ++pre;
+                nums[pre] = nums[cur];
+                cur++;
+            }
+        }
+        return pre + 1;
+    }
+};
 
 void print( vector<int> vector1){
     for(int i=0 ;i<vector1.size();i++)
@@ -68,9 +85,7 @@ int main(int argc, const char * argv[]) {
         b.push_back(a[i]);
     }
     cout<<endl;
-    
-    print(b);
-    
+        
     cout<< removeDuplicates(b)  <<" ";
     cout<<endl;
     

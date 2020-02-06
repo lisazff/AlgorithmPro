@@ -121,8 +121,9 @@ template<typename T>
 void insertionSort_2(T arr[], int n){
     
     for( int i = 1 ; i < n ; i ++ ) {
-        for( int j = i ; j > 0 && arr[j] < arr[j-1] ; j -- )
+        for( int j = i ; j > 0 && arr[j] < arr[j-1] ; j -- ){
             swap( arr[j] , arr[j-1] );
+        }
     }
 }
 
@@ -202,7 +203,7 @@ int main(int argc, const char * argv[]) {
     }
     
     cout << "\n排序后：";
-    insertSort_1(iArr, len);
+    insertionSort_2(iArr, len);
     for (int j = 0; j < len; j++)    {
         cout << iArr[j] << " ";
     }
