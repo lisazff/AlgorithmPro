@@ -6,13 +6,6 @@
 //  Copyright © 2019年 dfjr. All rights reserved.
 //
 
-/*---------------------------------------------
- *   日期：2015-02-14
- *   作者：SJF0115
- *   题目: 字符串匹配
- *   来源：腾讯
- *   博客：
- -----------------------------------------------*/
 #include <iostream>
 #include <cstring>
 using namespace std;

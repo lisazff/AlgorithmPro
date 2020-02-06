@@ -22,12 +22,10 @@
 
 class Solution {
 public:
-     int[] SingleNumber(int[] nums)
-    {
+     int[] SingleNumber(int[] nums){
         int sign = 0;
         //取得数组中两个唯一数的按位异或结果
-        for (int i = 0; i < nums.Length; i++)
-        {
+        for (int i = 0; i < nums.Length; i++){
             sign ^= nums[i];
         }
         //获取区分两个唯一数的比特位所代表的值
@@ -35,8 +33,7 @@ public:
         sign &= -sign;
         int[] result  = new int[2];
         //通过标识，区分两个数组
-        for (int i = 0; i < nums.Length; i++)
-        {
+        for (int i = 0; i < nums.Length; i++){
             if ((nums[i] & sign) == sign)
                 result[0] ^= nums[i];
             else
