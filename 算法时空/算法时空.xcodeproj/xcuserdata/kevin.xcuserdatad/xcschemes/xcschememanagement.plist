@@ -184,6 +184,11 @@
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
+		<key>leetcode-155 最小栈.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>68</integer>
+		</dict>
 		<key>leetcode-160 找到两个单链表相交的起始节点.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -263,6 +268,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>26</integer>
+		</dict>
+		<key>leetcode-344 反转字符串.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>66</integer>
 		</dict>
 		<key>leetcode-35搜索插入位置.xcscheme</key>
 		<dict>
@@ -382,7 +392,7 @@
 		<key>leetcode-Array.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>66</integer>
+			<integer>67</integer>
 		</dict>
 		<key>元素去重.xcscheme</key>
 		<dict>
