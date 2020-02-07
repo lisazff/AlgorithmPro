@@ -864,6 +864,7 @@
 		0AD213B223E5B1890083F044 /* leetcode-101 对称二叉树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-101 对称二叉树"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD213B423E5B1890083F044 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0AD213B923E5B4210083F044 /* 2elr5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2elr5.gif; sourceTree = "<group>"; };
+		0AF88CC323ED1C9D00304AD0 /* 寻找两个有序数组的中位数.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "寻找两个有序数组的中位数.png"; sourceTree = "<group>"; };
 		0AF9D07A2243242F008AC9DE /* leetcode-67二进制求和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-67二进制求和"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF9D07C2243242F008AC9DE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0AF9D08522432838008AC9DE /* leetcode-70爬楼梯 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-70爬楼梯"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1944,6 +1945,7 @@
 			isa = PBXGroup;
 			children = (
 				0ABA933623EC831C003A2F03 /* main.cpp */,
+				0AF88CC323ED1C9D00304AD0 /* 寻找两个有序数组的中位数.png */,
 			);
 			path = "leetcode-Array";
 			sourceTree = "<group>";
