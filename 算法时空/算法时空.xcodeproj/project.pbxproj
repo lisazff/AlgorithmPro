@@ -72,6 +72,13 @@
 		0AD213B523E5B1890083F044 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AD213B423E5B1890083F044 /* main.cpp */; };
 		0AF88CCB23ED21C700304AD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF88CCA23ED21C700304AD0 /* main.cpp */; };
 		0AF88CD623ED249000304AD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF88CD523ED249000304AD0 /* main.cpp */; };
+		0AF88CED23ED27DD00304AD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF88CEC23ED27DD00304AD0 /* main.cpp */; };
+		0AF88CF823ED2A4500304AD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF88CF723ED2A4500304AD0 /* main.cpp */; };
+		0AF88D0323ED2D6900304AD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF88D0223ED2D6900304AD0 /* main.cpp */; };
+		0AF88D1923ED7D6100304AD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF88D1823ED7D6100304AD0 /* main.cpp */; };
+		0AF88D2423ED869D00304AD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF88D2323ED869D00304AD0 /* main.cpp */; };
+		0AF88D2F23ED89DF00304AD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF88D2E23ED89DF00304AD0 /* main.cpp */; };
+		0AF88D3A23ED91B400304AD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF88D3923ED91B400304AD0 /* main.cpp */; };
 		0AF9D07D2243242F008AC9DE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9D07C2243242F008AC9DE /* main.cpp */; };
 		0AF9D08822432838008AC9DE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9D08722432838008AC9DE /* main.cpp */; };
 		0AF9D09322432E95008AC9DE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9D09222432E95008AC9DE /* main.cpp */; };
@@ -664,6 +671,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0AF88CE823ED27DD00304AD0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0AF88CF323ED2A4500304AD0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0AF88CFE23ED2D6900304AD0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0AF88D1423ED7D6100304AD0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0AF88D1F23ED869D00304AD0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0AF88D2A23ED89DE00304AD0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0AF88D3523ED91B400304AD0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		0AF9D0782243242F008AC9DE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -890,6 +960,20 @@
 		0AF88CD323ED249000304AD0 /* leetcode-155 最小栈 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-155 最小栈"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF88CD523ED249000304AD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0AF88CDA23ED269800304AD0 /* leetcode-155 最小栈.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leetcode-155 最小栈.png"; sourceTree = "<group>"; };
+		0AF88CEA23ED27DD00304AD0 /* leetcode-383 赎金信 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-383 赎金信"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF88CEC23ED27DD00304AD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0AF88CF523ED2A4500304AD0 /* leetcode-387 字符串中的第一个唯一字符 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-387 字符串中的第一个唯一字符"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF88CF723ED2A4500304AD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0AF88D0023ED2D6900304AD0 /* leetcode-541 反转字符串 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-541 反转字符串 II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF88D0223ED2D6900304AD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0AF88D1623ED7D6100304AD0 /* leetcode-686  重复叠加字符串匹配 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-686  重复叠加字符串匹配"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF88D1823ED7D6100304AD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0AF88D2123ED869D00304AD0 /* leetcode-680 验证回文字符串 Ⅱ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-680 验证回文字符串 Ⅱ"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF88D2323ED869D00304AD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0AF88D2C23ED89DE00304AD0 /* leetcode-443 压缩字符串 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-443 压缩字符串"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF88D2E23ED89DF00304AD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0AF88D3723ED91B400304AD0 /* leetcode-459   重复的子字符串 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-459   重复的子字符串"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF88D3923ED91B400304AD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0AF9D07A2243242F008AC9DE /* leetcode-67二进制求和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-67二进制求和"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF9D07C2243242F008AC9DE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0AF9D08522432838008AC9DE /* leetcode-70爬楼梯 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-70爬楼梯"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1356,6 +1440,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0AF88CE723ED27DD00304AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88CF223ED2A4500304AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88CFD23ED2D6900304AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88D1323ED7D6100304AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88D1E23ED869D00304AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88D2923ED89DE00304AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88D3423ED91B400304AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0AF9D0772243242F008AC9DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1759,6 +1892,13 @@
 				0A9AC11323E94E2D009E2264 /* leetcode-167 两数之和 II - 输入有序数组 */,
 				0A9AC0FA23E8140B009E2264 /* leetcode-260 只出现一次的数字 III */,
 				0AF88CC923ED21C700304AD0 /* leetcode-344 反转字符串 */,
+				0AF88CEB23ED27DD00304AD0 /* leetcode-383 赎金信 */,
+				0AF88CF623ED2A4500304AD0 /* leetcode-387 字符串中的第一个唯一字符 */,
+				0AF88D2D23ED89DF00304AD0 /* leetcode-443 压缩字符串 */,
+				0AF88D3823ED91B400304AD0 /* leetcode-459   重复的子字符串 */,
+				0AF88D0123ED2D6900304AD0 /* leetcode-541 反转字符串 II */,
+				0AF88D2223ED869D00304AD0 /* leetcode-680 验证回文字符串 Ⅱ */,
+				0AF88D1723ED7D6100304AD0 /* leetcode-686  重复叠加字符串匹配 */,
 				0A2CF10523EBE5EE0054EF33 /* leetcode-999 寻找无序数组中第K大的数 */,
 				0ABA931E23EC6C5E003A2F03 /* leetcode-1000 无序数组中找到最大值和最小值 */,
 				0ABA933523EC831C003A2F03 /* leetcode-Array */,
@@ -1845,6 +1985,13 @@
 				0ABA933423EC831C003A2F03 /* leetcode-Array */,
 				0AF88CC823ED21C700304AD0 /* leetcode-344 反转字符串 */,
 				0AF88CD323ED249000304AD0 /* leetcode-155 最小栈 */,
+				0AF88CEA23ED27DD00304AD0 /* leetcode-383 赎金信 */,
+				0AF88CF523ED2A4500304AD0 /* leetcode-387 字符串中的第一个唯一字符 */,
+				0AF88D0023ED2D6900304AD0 /* leetcode-541 反转字符串 II */,
+				0AF88D1623ED7D6100304AD0 /* leetcode-686  重复叠加字符串匹配 */,
+				0AF88D2123ED869D00304AD0 /* leetcode-680 验证回文字符串 Ⅱ */,
+				0AF88D2C23ED89DE00304AD0 /* leetcode-443 压缩字符串 */,
+				0AF88D3723ED91B400304AD0 /* leetcode-459   重复的子字符串 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2114,6 +2261,62 @@
 				0AF88CDA23ED269800304AD0 /* leetcode-155 最小栈.png */,
 			);
 			path = "leetcode-155 最小栈";
+			sourceTree = "<group>";
+		};
+		0AF88CEB23ED27DD00304AD0 /* leetcode-383 赎金信 */ = {
+			isa = PBXGroup;
+			children = (
+				0AF88CEC23ED27DD00304AD0 /* main.cpp */,
+			);
+			path = "leetcode-383 赎金信";
+			sourceTree = "<group>";
+		};
+		0AF88CF623ED2A4500304AD0 /* leetcode-387 字符串中的第一个唯一字符 */ = {
+			isa = PBXGroup;
+			children = (
+				0AF88CF723ED2A4500304AD0 /* main.cpp */,
+			);
+			path = "leetcode-387 字符串中的第一个唯一字符";
+			sourceTree = "<group>";
+		};
+		0AF88D0123ED2D6900304AD0 /* leetcode-541 反转字符串 II */ = {
+			isa = PBXGroup;
+			children = (
+				0AF88D0223ED2D6900304AD0 /* main.cpp */,
+			);
+			path = "leetcode-541 反转字符串 II";
+			sourceTree = "<group>";
+		};
+		0AF88D1723ED7D6100304AD0 /* leetcode-686  重复叠加字符串匹配 */ = {
+			isa = PBXGroup;
+			children = (
+				0AF88D1823ED7D6100304AD0 /* main.cpp */,
+			);
+			path = "leetcode-686  重复叠加字符串匹配";
+			sourceTree = "<group>";
+		};
+		0AF88D2223ED869D00304AD0 /* leetcode-680 验证回文字符串 Ⅱ */ = {
+			isa = PBXGroup;
+			children = (
+				0AF88D2323ED869D00304AD0 /* main.cpp */,
+			);
+			path = "leetcode-680 验证回文字符串 Ⅱ";
+			sourceTree = "<group>";
+		};
+		0AF88D2D23ED89DF00304AD0 /* leetcode-443 压缩字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				0AF88D2E23ED89DF00304AD0 /* main.cpp */,
+			);
+			path = "leetcode-443 压缩字符串";
+			sourceTree = "<group>";
+		};
+		0AF88D3823ED91B400304AD0 /* leetcode-459   重复的子字符串 */ = {
+			isa = PBXGroup;
+			children = (
+				0AF88D3923ED91B400304AD0 /* main.cpp */,
+			);
+			path = "leetcode-459   重复的子字符串";
 			sourceTree = "<group>";
 		};
 		0AF9D07B2243242F008AC9DE /* leetcode-67二进制求和 */ = {
@@ -3256,6 +3459,125 @@
 			productReference = 0AF88CD323ED249000304AD0 /* leetcode-155 最小栈 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0AF88CE923ED27DD00304AD0 /* leetcode-383 赎金信 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF88CEE23ED27DD00304AD0 /* Build configuration list for PBXNativeTarget "leetcode-383 赎金信" */;
+			buildPhases = (
+				0AF88CE623ED27DD00304AD0 /* Sources */,
+				0AF88CE723ED27DD00304AD0 /* Frameworks */,
+				0AF88CE823ED27DD00304AD0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leetcode-383 赎金信";
+			productName = "leetcode-383 赎金信";
+			productReference = 0AF88CEA23ED27DD00304AD0 /* leetcode-383 赎金信 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0AF88CF423ED2A4500304AD0 /* leetcode-387 字符串中的第一个唯一字符 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF88CF923ED2A4500304AD0 /* Build configuration list for PBXNativeTarget "leetcode-387 字符串中的第一个唯一字符" */;
+			buildPhases = (
+				0AF88CF123ED2A4500304AD0 /* Sources */,
+				0AF88CF223ED2A4500304AD0 /* Frameworks */,
+				0AF88CF323ED2A4500304AD0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leetcode-387 字符串中的第一个唯一字符";
+			productName = "leetcode-387 字符串中的第一个唯一字符";
+			productReference = 0AF88CF523ED2A4500304AD0 /* leetcode-387 字符串中的第一个唯一字符 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0AF88CFF23ED2D6900304AD0 /* leetcode-541 反转字符串 II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF88D0423ED2D6900304AD0 /* Build configuration list for PBXNativeTarget "leetcode-541 反转字符串 II" */;
+			buildPhases = (
+				0AF88CFC23ED2D6900304AD0 /* Sources */,
+				0AF88CFD23ED2D6900304AD0 /* Frameworks */,
+				0AF88CFE23ED2D6900304AD0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leetcode-541 反转字符串 II";
+			productName = "leetcode-541 反转字符串 II";
+			productReference = 0AF88D0023ED2D6900304AD0 /* leetcode-541 反转字符串 II */;
+			productType = "com.apple.product-type.tool";
+		};
+		0AF88D1523ED7D6100304AD0 /* leetcode-686  重复叠加字符串匹配 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF88D1A23ED7D6100304AD0 /* Build configuration list for PBXNativeTarget "leetcode-686  重复叠加字符串匹配" */;
+			buildPhases = (
+				0AF88D1223ED7D6100304AD0 /* Sources */,
+				0AF88D1323ED7D6100304AD0 /* Frameworks */,
+				0AF88D1423ED7D6100304AD0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leetcode-686  重复叠加字符串匹配";
+			productName = "leetcode-686  重复叠加字符串匹配";
+			productReference = 0AF88D1623ED7D6100304AD0 /* leetcode-686  重复叠加字符串匹配 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0AF88D2023ED869D00304AD0 /* leetcode-680 验证回文字符串 Ⅱ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF88D2523ED869D00304AD0 /* Build configuration list for PBXNativeTarget "leetcode-680 验证回文字符串 Ⅱ" */;
+			buildPhases = (
+				0AF88D1D23ED869D00304AD0 /* Sources */,
+				0AF88D1E23ED869D00304AD0 /* Frameworks */,
+				0AF88D1F23ED869D00304AD0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leetcode-680 验证回文字符串 Ⅱ";
+			productName = "leetcode-680 验证回文字符串 Ⅱ";
+			productReference = 0AF88D2123ED869D00304AD0 /* leetcode-680 验证回文字符串 Ⅱ */;
+			productType = "com.apple.product-type.tool";
+		};
+		0AF88D2B23ED89DE00304AD0 /* leetcode-443 压缩字符串 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF88D3023ED89DF00304AD0 /* Build configuration list for PBXNativeTarget "leetcode-443 压缩字符串" */;
+			buildPhases = (
+				0AF88D2823ED89DE00304AD0 /* Sources */,
+				0AF88D2923ED89DE00304AD0 /* Frameworks */,
+				0AF88D2A23ED89DE00304AD0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leetcode-443 压缩字符串";
+			productName = "leetcode-443 压缩字符串";
+			productReference = 0AF88D2C23ED89DE00304AD0 /* leetcode-443 压缩字符串 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0AF88D3623ED91B400304AD0 /* leetcode-459   重复的子字符串 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF88D3B23ED91B400304AD0 /* Build configuration list for PBXNativeTarget "leetcode-459   重复的子字符串" */;
+			buildPhases = (
+				0AF88D3323ED91B400304AD0 /* Sources */,
+				0AF88D3423ED91B400304AD0 /* Frameworks */,
+				0AF88D3523ED91B400304AD0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leetcode-459   重复的子字符串";
+			productName = "leetcode-459   重复的子字符串";
+			productReference = 0AF88D3723ED91B400304AD0 /* leetcode-459   重复的子字符串 */;
+			productType = "com.apple.product-type.tool";
+		};
 		0AF9D0792243242F008AC9DE /* leetcode-67二进制求和 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AF9D0802243242F008AC9DE /* Build configuration list for PBXNativeTarget "leetcode-67二进制求和" */;
@@ -3528,6 +3850,27 @@
 					0AF88CD223ED249000304AD0 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					0AF88CE923ED27DD00304AD0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0AF88CF423ED2A4500304AD0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0AF88CFF23ED2D6900304AD0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0AF88D1523ED7D6100304AD0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0AF88D2023ED869D00304AD0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0AF88D2B23ED89DE00304AD0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0AF88D3623ED91B400304AD0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					0AF9D0792243242F008AC9DE = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -3613,6 +3956,13 @@
 				0A9AC11123E94E2D009E2264 /* leetcode-167 两数之和 II - 输入有序数组 */,
 				0A9AC0F823E8140B009E2264 /* leetcode-260 只出现一次的数字 III */,
 				0AF88CC723ED21C700304AD0 /* leetcode-344 反转字符串 */,
+				0AF88CE923ED27DD00304AD0 /* leetcode-383 赎金信 */,
+				0AF88CF423ED2A4500304AD0 /* leetcode-387 字符串中的第一个唯一字符 */,
+				0AF88D2B23ED89DE00304AD0 /* leetcode-443 压缩字符串 */,
+				0AF88D3623ED91B400304AD0 /* leetcode-459   重复的子字符串 */,
+				0AF88CFF23ED2D6900304AD0 /* leetcode-541 反转字符串 II */,
+				0AF88D2023ED869D00304AD0 /* leetcode-680 验证回文字符串 Ⅱ */,
+				0AF88D1523ED7D6100304AD0 /* leetcode-686  重复叠加字符串匹配 */,
 				0A2CF10323EBE5EE0054EF33 /* leetcode-999 寻找无序数组中第K大的数 */,
 				0ABA931C23EC6C5E003A2F03 /* leetcode-1000 无序数组中找到最大值和最小值 */,
 				0ABA933323EC831C003A2F03 /* leetcode-Array */,
@@ -4145,6 +4495,62 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AF88CD623ED249000304AD0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88CE623ED27DD00304AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF88CED23ED27DD00304AD0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88CF123ED2A4500304AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF88CF823ED2A4500304AD0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88CFC23ED2D6900304AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF88D0323ED2D6900304AD0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88D1223ED7D6100304AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF88D1923ED7D6100304AD0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88D1D23ED869D00304AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF88D2423ED869D00304AD0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88D2823ED89DE00304AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF88D2F23ED89DF00304AD0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88D3323ED91B400304AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF88D3A23ED91B400304AD0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5572,6 +5978,160 @@
 			};
 			name = Release;
 		};
+		0AF88CEF23ED27DD00304AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AF88CF023ED27DD00304AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0AF88CFA23ED2A4500304AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AF88CFB23ED2A4500304AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0AF88D0523ED2D6900304AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AF88D0623ED2D6900304AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0AF88D1B23ED7D6100304AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AF88D1C23ED7D6100304AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0AF88D2623ED869D00304AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AF88D2723ED869D00304AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0AF88D3123ED89DF00304AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AF88D3223ED89DF00304AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0AF88D3C23ED91B400304AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AF88D3D23ED91B400304AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0AF9D07E2243242F008AC9DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -6237,6 +6797,69 @@
 			buildConfigurations = (
 				0AF88CD823ED249000304AD0 /* Debug */,
 				0AF88CD923ED249000304AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF88CEE23ED27DD00304AD0 /* Build configuration list for PBXNativeTarget "leetcode-383 赎金信" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF88CEF23ED27DD00304AD0 /* Debug */,
+				0AF88CF023ED27DD00304AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF88CF923ED2A4500304AD0 /* Build configuration list for PBXNativeTarget "leetcode-387 字符串中的第一个唯一字符" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF88CFA23ED2A4500304AD0 /* Debug */,
+				0AF88CFB23ED2A4500304AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF88D0423ED2D6900304AD0 /* Build configuration list for PBXNativeTarget "leetcode-541 反转字符串 II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF88D0523ED2D6900304AD0 /* Debug */,
+				0AF88D0623ED2D6900304AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF88D1A23ED7D6100304AD0 /* Build configuration list for PBXNativeTarget "leetcode-686  重复叠加字符串匹配" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF88D1B23ED7D6100304AD0 /* Debug */,
+				0AF88D1C23ED7D6100304AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF88D2523ED869D00304AD0 /* Build configuration list for PBXNativeTarget "leetcode-680 验证回文字符串 Ⅱ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF88D2623ED869D00304AD0 /* Debug */,
+				0AF88D2723ED869D00304AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF88D3023ED89DF00304AD0 /* Build configuration list for PBXNativeTarget "leetcode-443 压缩字符串" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF88D3123ED89DF00304AD0 /* Debug */,
+				0AF88D3223ED89DF00304AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF88D3B23ED91B400304AD0 /* Build configuration list for PBXNativeTarget "leetcode-459   重复的子字符串" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF88D3C23ED91B400304AD0 /* Debug */,
+				0AF88D3D23ED91B400304AD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

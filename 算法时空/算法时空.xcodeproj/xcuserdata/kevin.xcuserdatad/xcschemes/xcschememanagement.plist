@@ -7,7 +7,7 @@
 		<key>BST-二叉搜索树.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>44</integer>
+			<integer>32</integer>
 		</dict>
 		<key>C++.xcscheme</key>
 		<dict>
@@ -17,7 +17,7 @@
 		<key>C++.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>40</integer>
+			<integer>28</integer>
 		</dict>
 		<key>Fibonacci （斐波那契数列实现）.xcscheme</key>
 		<dict>
@@ -27,12 +27,12 @@
 		<key>Fibonacci （斐波那契数列实现）.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>47</integer>
+			<integer>35</integer>
 		</dict>
 		<key>Graph-Representation.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>46</integer>
+			<integer>34</integer>
 		</dict>
 		<key>LeetCode-102二叉树的层次遍历.xcscheme</key>
 		<dict>
@@ -42,7 +42,7 @@
 		<key>LeetCode-102二叉树的层次遍历.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>34</integer>
+			<integer>50</integer>
 		</dict>
 		<key>leetcode-01两数之和.xcscheme</key>
 		<dict>
@@ -92,7 +92,7 @@
 		<key>leetcode-1000 无序数组中找到最大值和最小值.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>65</integer>
+			<integer>71</integer>
 		</dict>
 		<key>leetcode-100相同的树.xcscheme</key>
 		<dict>
@@ -102,22 +102,22 @@
 		<key>leetcode-100相同的树.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>32</integer>
+			<integer>48</integer>
 		</dict>
 		<key>leetcode-101 对称二叉树.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>33</integer>
+			<integer>49</integer>
 		</dict>
 		<key>leetcode-104 二叉树的深度.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>35</integer>
+			<integer>51</integer>
 		</dict>
 		<key>leetcode-107 二叉树的层次遍历 II.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>48</integer>
+			<integer>57</integer>
 		</dict>
 		<key>leetcode-109 有序链表转换二叉搜索树.xcscheme_^#shared#^_</key>
 		<dict>
@@ -127,12 +127,12 @@
 		<key>leetcode-110 平衡二叉树.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>36</integer>
+			<integer>52</integer>
 		</dict>
 		<key>leetcode-125 验证回文串.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>37</integer>
+			<integer>53</integer>
 		</dict>
 		<key>leetcode-131 分割回文串.xcscheme_^#shared#^_</key>
 		<dict>
@@ -167,7 +167,7 @@
 		<key>leetcode-141 环形链表.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>38</integer>
+			<integer>54</integer>
 		</dict>
 		<key>leetcode-14最长公共前缀.xcscheme</key>
 		<dict>
@@ -187,17 +187,17 @@
 		<key>leetcode-155 最小栈.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>68</integer>
+			<integer>63</integer>
 		</dict>
 		<key>leetcode-160 找到两个单链表相交的起始节点.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>39</integer>
+			<integer>55</integer>
 		</dict>
 		<key>leetcode-167 两数之和 II - 输入有序数组.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>63</integer>
+			<integer>64</integer>
 		</dict>
 		<key>leetcode-19 删除链表的倒数第 N 个节点.xcscheme_^#shared#^_</key>
 		<dict>
@@ -237,7 +237,7 @@
 		<key>leetcode-260 只出现一次的数字 III.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>64</integer>
+			<integer>65</integer>
 		</dict>
 		<key>leetcode-26删除排序数组中的重复项.xcscheme</key>
 		<dict>
@@ -284,6 +284,26 @@
 			<key>orderHint</key>
 			<integer>27</integer>
 		</dict>
+		<key>leetcode-383 赎金信.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>67</integer>
+		</dict>
+		<key>leetcode-387 字符串中的第一个唯一字符.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>68</integer>
+		</dict>
+		<key>leetcode-443 压缩字符串.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>74</integer>
+		</dict>
+		<key>leetcode-459   重复的子字符串.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>75</integer>
+		</dict>
 		<key>leetcode-53最大子序和.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -292,7 +312,12 @@
 		<key>leetcode-53最大子序和.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>49</integer>
+			<integer>40</integer>
+		</dict>
+		<key>leetcode-541 反转字符串 II.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>69</integer>
 		</dict>
 		<key>leetcode-58最后一个单词的长度.xcscheme</key>
 		<dict>
@@ -302,12 +327,12 @@
 		<key>leetcode-58最后一个单词的长度.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>50</integer>
+			<integer>41</integer>
 		</dict>
 		<key>leetcode-61 反转链表.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>28</integer>
+			<integer>36</integer>
 		</dict>
 		<key>leetcode-66加一.xcscheme</key>
 		<dict>
@@ -317,7 +342,7 @@
 		<key>leetcode-66加一.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>51</integer>
+			<integer>42</integer>
 		</dict>
 		<key>leetcode-67二进制求和.xcscheme</key>
 		<dict>
@@ -327,7 +352,17 @@
 		<key>leetcode-67二进制求和.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>52</integer>
+			<integer>43</integer>
+		</dict>
+		<key>leetcode-680 验证回文字符串 Ⅱ.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>73</integer>
+		</dict>
+		<key>leetcode-686  重复叠加字符串匹配.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>70</integer>
 		</dict>
 		<key>leetcode-70爬楼梯.xcscheme</key>
 		<dict>
@@ -337,12 +372,12 @@
 		<key>leetcode-70爬楼梯.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>53</integer>
+			<integer>44</integer>
 		</dict>
 		<key>leetcode-75 颜色分类.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>29</integer>
+			<integer>37</integer>
 		</dict>
 		<key>leetcode-83删除排序链表中的重复元素.xcscheme</key>
 		<dict>
@@ -352,12 +387,12 @@
 		<key>leetcode-83删除排序链表中的重复元素.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>54</integer>
+			<integer>45</integer>
 		</dict>
 		<key>leetcode-86 分割链表.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>30</integer>
+			<integer>38</integer>
 		</dict>
 		<key>leetcode-88合并两个有序数组.xcscheme</key>
 		<dict>
@@ -367,12 +402,12 @@
 		<key>leetcode-88合并两个有序数组.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>55</integer>
+			<integer>46</integer>
 		</dict>
 		<key>leetcode-92 反转链表 II.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>31</integer>
+			<integer>39</integer>
 		</dict>
 		<key>leetcode-94二叉树的中序遍历.xcscheme</key>
 		<dict>
@@ -382,17 +417,17 @@
 		<key>leetcode-94二叉树的中序遍历.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>56</integer>
+			<integer>47</integer>
 		</dict>
 		<key>leetcode-999 寻找无序数组中第K大的数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>57</integer>
+			<integer>56</integer>
 		</dict>
 		<key>leetcode-Array.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>67</integer>
+			<integer>72</integer>
 		</dict>
 		<key>元素去重.xcscheme</key>
 		<dict>
@@ -447,7 +482,7 @@
 		<key>字符串匹配.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>42</integer>
+			<integer>30</integer>
 		</dict>
 		<key>字符串比较.xcscheme</key>
 		<dict>
@@ -492,7 +527,7 @@
 		<key>无重复字符的最长子串.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>45</integer>
+			<integer>33</integer>
 		</dict>
 		<key>桶排序.xcscheme</key>
 		<dict>
@@ -507,7 +542,7 @@
 		<key>索引堆.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>41</integer>
+			<integer>29</integer>
 		</dict>
 		<key>选择排序.xcscheme</key>
 		<dict>
@@ -527,7 +562,7 @@
 		<key>链表逆序打印.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>43</integer>
+			<integer>31</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -598,6 +633,11 @@
 			<true/>
 		</dict>
 		<key>0A2CF0EC23EBC5710054EF33</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0A2CF10323EBE5EE0054EF33</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -722,12 +762,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>0ABA931C23EC6C5E003A2F03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>0ABA932823EC76BD003A2F03</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>0AD19FBC23E6776100A0E2EB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AD19FC723E677DF00A0E2EB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -778,6 +828,31 @@
 			<true/>
 		</dict>
 		<key>0AD213B123E5B1890083F044</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AF88CD223ED249000304AD0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AF88CE923ED27DD00304AD0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AF88CF423ED2A4500304AD0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AF88CFF23ED2D6900304AD0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AF88D1523ED7D6100304AD0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

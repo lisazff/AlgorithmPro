@@ -74,7 +74,6 @@ public:
         long min = lcpLeft.size() > lcpRight.size() ? lcpLeft.size() : lcpRight.size();
         
         for(int i = 0; i < min; ++i){
-            
             if(lcpLeft[i] != lcpRight[i])
                 return lcpLeft.substr(0, i);
         }
