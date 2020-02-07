@@ -217,8 +217,8 @@ public:
     
     // 9、寻找两个有序数组的中位数
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-        unsigned long n = nums1.size();
-        unsigned long m = nums2.size();
+        int  n = (int)nums1.size();
+        int  m = (int)nums2.size();
         
         if (n > m)  //保证数组1一定最短
         {
@@ -226,7 +226,7 @@ public:
         }
         
         // Ci 为第i个数组的割,比如C1为2时表示第1个数组只有2个元素。LMaxi为第i个数组割后的左元素。RMini为第i个数组割后的右元素。
-        unsigned long LMax1 = 0, LMax2 = 0, RMin1 = 0, RMin2 = 0, c1, c2, lo = 0, hi = 2 * n;  //我们目前是虚拟加了'#'所以数组1是2*n长度
+        int LMax1 = 0, LMax2 = 0, RMin1 = 0, RMin2 = 0, c1, c2, lo = 0, hi = 2 * n;  //我们目前是虚拟加了'#'所以数组1是2*n长度
         
         while (lo <= hi)   //二分
         {
@@ -341,6 +341,15 @@ int main(int argc, const char * argv[]) {
     
     double ret = solution.findMedianSortedArrays(nums1, nums2);
     cout << ret  << " ";
+    cout << endl;
+    cout << endl;
+
+    vector<int> nums11 = { 1,2 };
+    vector<int> nums21 = { 3,4 };
+    
+    double ret1 = solution.findMedianSortedArrays(nums11, nums21);
+    cout << ret1  << " ";
+    
     cout << endl;
     cout << endl;
     
