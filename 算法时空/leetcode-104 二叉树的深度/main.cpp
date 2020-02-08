@@ -9,6 +9,21 @@
 #include <iostream>
 #include <vector>
 #include <queue>
+#include <stack>
+
+/**
+ Example:
+ 
+ 输入一个二叉树 [3,9,20,null,null,15,7],
+ 
+ 3
+ / \
+ 9  20
+ /  \
+ 15   7
+ return its depth = 2.
+ 
+ */
 
 using namespace std;
 struct TreeNode {
@@ -22,8 +37,7 @@ struct TreeNode {
 void reverse_index(vector<vector<int>> vec){
     int i,j;
     cout << "Use index : " << endl;
-    for (i = 0; i < vec.size(); i++)
-    {
+    for (i = 0; i < vec.size(); i++){
         for(j = 0; j < vec[i].size(); j++)
             cout << vec[i][j] << " ";
         cout << endl;
@@ -32,10 +46,11 @@ void reverse_index(vector<vector<int>> vec){
 
 class Solution {
 public:
+    
     // 递归方式
-    int depth(TreeNode* node){
+    int maxDepth0(TreeNode* node){
         if(node ==NULL) return 0;
-        return max( depth(node->left), depth(node->right) )+1;
+        return max( maxDepth0(node->left), maxDepth0(node->right) )+1;
     }
     
     //深度优先：用栈的循环版
@@ -61,7 +76,8 @@ public:
         return Maxdeep;
     }
     
-    //广度优先：使用队列
+    //广度优先：使用队列 主要说说BFS的实现，实际上二叉树的最大深度就是树的层数，依靠这个关系我们可以借助队列进行层序遍历，最后的层数就是题目中要求的最大深度。
+    //具体实现的时候，我们对每一层进行如下操作：将根结点放入队列，然后对队列里的每个元素执行------弹出队列首元素---------放入其对应的孩子节点（如果有的话，为了对下一层进行遍历)---------每执行一层，层数+1。
     int maxDepths(TreeNode* root) {
         if(root==NULL) return 0;
         deque<TreeNode*> q;
@@ -69,7 +85,7 @@ public:
         int deep=0;
         while(!q.empty()){
             deep++;
-            int num=q.size();
+            int num=(int)q.size();
             for(int i=1;i<=num;i++){
                 TreeNode* p=q.front();
                 q.pop_front();
@@ -78,6 +94,44 @@ public:
             }
         }
         return deep;
+    }
+    
+    
+    int minDepth0(TreeNode* root) {
+        if(root == NULL) return 0;
+        return min(1+minDepth0(root->left), 1+minDepth0(root->right));
+    }
+    
+    int minDepth1(TreeNode *root) {
+        if(root==NULL) return 0;
+        if(root->left==NULL) return 1 + minDepth1(root->right); //如果只有右孩子
+        if(root->right==NULL) return 1 + minDepth1(root->left); // 如果只有左孩子
+        return 1+min(minDepth1(root->left),minDepth1(root->right));
+    }
+    
+    int minDepth2(TreeNode *root)
+    {
+        if(root == NULL)
+            return 0;
+        int res = 0; // 标记高度最大值
+        queue<TreeNode *> q;
+        q.push(root);
+        while(!q.empty())// 迭代操作标志
+        {
+            ++ res; // 每执行一层，深度+1。
+            for(int i = 0, n = (int)q.size(); i < n; ++ i) //对队列里的每个元素进行操作。
+            {
+                TreeNode *p = q.front(); // 具体的队列操作是
+                q.pop();                // 弹出根节点，然后放入孩子节点（如果有）
+                if(p->left == NULL && p->right==NULL)
+                    return res;
+                if(p -> left != NULL)
+                    q.push(p -> left);
+                if(p -> right != NULL)
+                    q.push(p -> right);
+            }
+        }
+        return res;
     }
 };
 
@@ -105,7 +159,7 @@ int main(int argc, const char * argv[]) {
     node3->right = node5;
     
     Solution solution;
-    cout << solution.isBalanced(headNodel) << " ";
+    cout << solution.maxDepth(headNodel) << " ";
     
     
     return 0;

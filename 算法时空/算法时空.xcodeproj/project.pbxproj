@@ -79,6 +79,11 @@
 		0AF88D2423ED869D00304AD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF88D2323ED869D00304AD0 /* main.cpp */; };
 		0AF88D2F23ED89DF00304AD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF88D2E23ED89DF00304AD0 /* main.cpp */; };
 		0AF88D3A23ED91B400304AD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF88D3923ED91B400304AD0 /* main.cpp */; };
+		0AF88D6323EE7CBE00304AD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF88D6223EE7CBE00304AD0 /* main.cpp */; };
+		0AF88D6E23EE814C00304AD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF88D6D23EE814C00304AD0 /* main.cpp */; };
+		0AF88D7A23EE84F400304AD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF88D7923EE84F400304AD0 /* main.cpp */; };
+		0AF88D8523EE88AD00304AD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF88D8423EE88AD00304AD0 /* main.cpp */; };
+		0AF88D9023EE88DA00304AD0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF88D8F23EE88DA00304AD0 /* main.cpp */; };
 		0AF9D07D2243242F008AC9DE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9D07C2243242F008AC9DE /* main.cpp */; };
 		0AF9D08822432838008AC9DE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9D08722432838008AC9DE /* main.cpp */; };
 		0AF9D09322432E95008AC9DE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AF9D09222432E95008AC9DE /* main.cpp */; };
@@ -734,6 +739,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		0AF88D5E23EE7CBE00304AD0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0AF88D6923EE814C00304AD0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0AF88D7523EE84F400304AD0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0AF88D8023EE88AD00304AD0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0AF88D8B23EE88DA00304AD0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		0AF9D0782243242F008AC9DE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -853,7 +903,7 @@
 		0A9AC10023E843D9009E2264 /* 两数相加.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "两数相加.png"; sourceTree = "<group>"; };
 		0A9AC10523E852FC009E2264 /* leetcode-109 有序链表转换二叉搜索树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-109 有序链表转换二叉搜索树"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9AC10723E852FC009E2264 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		0A9AC10D23E859F0009E2264 /* Xnip2020-02-03_21-38-45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Xnip2020-02-03_21-38-45.png"; sourceTree = "<group>"; };
+		0A9AC10D23E859F0009E2264 /* 有序链表转换二叉搜索树.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "有序链表转换二叉搜索树.png"; sourceTree = "<group>"; };
 		0A9AC11223E94E2D009E2264 /* leetcode-167 两数之和 II - 输入有序数组 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-167 两数之和 II - 输入有序数组"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9AC11423E94E2D009E2264 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0A9AC11923E94F2A009E2264 /* 59rnm.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 59rnm.gif; sourceTree = "<group>"; };
@@ -974,6 +1024,17 @@
 		0AF88D2E23ED89DF00304AD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0AF88D3723ED91B400304AD0 /* leetcode-459   重复的子字符串 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-459   重复的子字符串"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF88D3923ED91B400304AD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0AF88D6023EE7CBE00304AD0 /* leetcode - 572 另一个树的子树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode - 572 另一个树的子树"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF88D6223EE7CBE00304AD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0AF88D6B23EE814C00304AD0 /* leetcode- 124 二叉树的最大路径和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode- 124 二叉树的最大路径和"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF88D6D23EE814C00304AD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0AF88D7223EE81AF00304AD0 /* 最大路径和.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "最大路径和.png"; sourceTree = "<group>"; };
+		0AF88D7723EE84F400304AD0 /* leetcode- 1001 二叉树的下一个节点 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode- 1001 二叉树的下一个节点"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF88D7923EE84F400304AD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0AF88D8223EE88AD00304AD0 /* leetcode- 671 二叉树中第二小的节点 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode- 671 二叉树中第二小的节点"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF88D8423EE88AD00304AD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0AF88D8D23EE88DA00304AD0 /* leetcode-230 二叉搜索树第K小的元素 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-230 二叉搜索树第K小的元素"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AF88D8F23EE88DA00304AD0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0AF9D07A2243242F008AC9DE /* leetcode-67二进制求和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-67二进制求和"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AF9D07C2243242F008AC9DE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0AF9D08522432838008AC9DE /* leetcode-70爬楼梯 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-70爬楼梯"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1489,6 +1550,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0AF88D5D23EE7CBE00304AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88D6823EE814C00304AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88D7423EE84F400304AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88D7F23EE88AD00304AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88D8A23EE88DA00304AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0AF9D0772243242F008AC9DE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1816,7 +1912,7 @@
 		0A9AC10623E852FC009E2264 /* leetcode-109 有序链表转换二叉搜索树 */ = {
 			isa = PBXGroup;
 			children = (
-				0A9AC10D23E859F0009E2264 /* Xnip2020-02-03_21-38-45.png */,
+				0A9AC10D23E859F0009E2264 /* 有序链表转换二叉搜索树.png */,
 				0A9AC10723E852FC009E2264 /* main.cpp */,
 			);
 			path = "leetcode-109 有序链表转换二叉搜索树";
@@ -1880,6 +1976,7 @@
 				0AD19FC923E677DF00A0E2EB /* leetcode-107 二叉树的层次遍历 II */,
 				0A9AC10623E852FC009E2264 /* leetcode-109 有序链表转换二叉搜索树 */,
 				0AD19FD523E67B8A00A0E2EB /* leetcode-110 平衡二叉树 */,
+				0AF88D6C23EE814C00304AD0 /* leetcode- 124 二叉树的最大路径和 */,
 				0AD19FEB23E67FB800A0E2EB /* leetcode-125 验证回文串 */,
 				0A9CB209223B9EC60079C561 /* leetcode-217元素去重 */,
 				0AD19FF723E6822700A0E2EB /* leetcode-131 分割回文串 */,
@@ -1890,6 +1987,7 @@
 				0AF88CD423ED249000304AD0 /* leetcode-155 最小栈 */,
 				0A2CF0E323EBBF1D0054EF33 /* leetcode-160 找到两个单链表相交的起始节点 */,
 				0A9AC11323E94E2D009E2264 /* leetcode-167 两数之和 II - 输入有序数组 */,
+				0AF88D8E23EE88DA00304AD0 /* leetcode-230 二叉搜索树第K小的元素 */,
 				0A9AC0FA23E8140B009E2264 /* leetcode-260 只出现一次的数字 III */,
 				0AF88CC923ED21C700304AD0 /* leetcode-344 反转字符串 */,
 				0AF88CEB23ED27DD00304AD0 /* leetcode-383 赎金信 */,
@@ -1897,10 +1995,13 @@
 				0AF88D2D23ED89DF00304AD0 /* leetcode-443 压缩字符串 */,
 				0AF88D3823ED91B400304AD0 /* leetcode-459   重复的子字符串 */,
 				0AF88D0123ED2D6900304AD0 /* leetcode-541 反转字符串 II */,
+				0AF88D6123EE7CBE00304AD0 /* leetcode - 572 另一个树的子树 */,
 				0AF88D2223ED869D00304AD0 /* leetcode-680 验证回文字符串 Ⅱ */,
+				0AF88D8323EE88AD00304AD0 /* leetcode- 671 二叉树中第二小的节点 */,
 				0AF88D1723ED7D6100304AD0 /* leetcode-686  重复叠加字符串匹配 */,
 				0A2CF10523EBE5EE0054EF33 /* leetcode-999 寻找无序数组中第K大的数 */,
 				0ABA931E23EC6C5E003A2F03 /* leetcode-1000 无序数组中找到最大值和最小值 */,
+				0AF88D7823EE84F400304AD0 /* leetcode- 1001 二叉树的下一个节点 */,
 				0ABA933523EC831C003A2F03 /* leetcode-Array */,
 				0AA26B80224CCD1B00A29E79 /* 索引堆 */,
 				0A2EEADC224A218F00E5EDB4 /* 图论 */,
@@ -1992,6 +2093,11 @@
 				0AF88D2123ED869D00304AD0 /* leetcode-680 验证回文字符串 Ⅱ */,
 				0AF88D2C23ED89DE00304AD0 /* leetcode-443 压缩字符串 */,
 				0AF88D3723ED91B400304AD0 /* leetcode-459   重复的子字符串 */,
+				0AF88D6023EE7CBE00304AD0 /* leetcode - 572 另一个树的子树 */,
+				0AF88D6B23EE814C00304AD0 /* leetcode- 124 二叉树的最大路径和 */,
+				0AF88D7723EE84F400304AD0 /* leetcode- 1001 二叉树的下一个节点 */,
+				0AF88D8223EE88AD00304AD0 /* leetcode- 671 二叉树中第二小的节点 */,
+				0AF88D8D23EE88DA00304AD0 /* leetcode-230 二叉搜索树第K小的元素 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2317,6 +2423,47 @@
 				0AF88D3923ED91B400304AD0 /* main.cpp */,
 			);
 			path = "leetcode-459   重复的子字符串";
+			sourceTree = "<group>";
+		};
+		0AF88D6123EE7CBE00304AD0 /* leetcode - 572 另一个树的子树 */ = {
+			isa = PBXGroup;
+			children = (
+				0AF88D6223EE7CBE00304AD0 /* main.cpp */,
+			);
+			path = "leetcode - 572 另一个树的子树";
+			sourceTree = "<group>";
+		};
+		0AF88D6C23EE814C00304AD0 /* leetcode- 124 二叉树的最大路径和 */ = {
+			isa = PBXGroup;
+			children = (
+				0AF88D6D23EE814C00304AD0 /* main.cpp */,
+				0AF88D7223EE81AF00304AD0 /* 最大路径和.png */,
+			);
+			path = "leetcode- 124 二叉树的最大路径和";
+			sourceTree = "<group>";
+		};
+		0AF88D7823EE84F400304AD0 /* leetcode- 1001 二叉树的下一个节点 */ = {
+			isa = PBXGroup;
+			children = (
+				0AF88D7923EE84F400304AD0 /* main.cpp */,
+			);
+			path = "leetcode- 1001 二叉树的下一个节点";
+			sourceTree = "<group>";
+		};
+		0AF88D8323EE88AD00304AD0 /* leetcode- 671 二叉树中第二小的节点 */ = {
+			isa = PBXGroup;
+			children = (
+				0AF88D8423EE88AD00304AD0 /* main.cpp */,
+			);
+			path = "leetcode- 671 二叉树中第二小的节点";
+			sourceTree = "<group>";
+		};
+		0AF88D8E23EE88DA00304AD0 /* leetcode-230 二叉搜索树第K小的元素 */ = {
+			isa = PBXGroup;
+			children = (
+				0AF88D8F23EE88DA00304AD0 /* main.cpp */,
+			);
+			path = "leetcode-230 二叉搜索树第K小的元素";
 			sourceTree = "<group>";
 		};
 		0AF9D07B2243242F008AC9DE /* leetcode-67二进制求和 */ = {
@@ -3578,6 +3725,91 @@
 			productReference = 0AF88D3723ED91B400304AD0 /* leetcode-459   重复的子字符串 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0AF88D5F23EE7CBE00304AD0 /* leetcode - 572 另一个树的子树 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF88D6423EE7CBE00304AD0 /* Build configuration list for PBXNativeTarget "leetcode - 572 另一个树的子树" */;
+			buildPhases = (
+				0AF88D5C23EE7CBE00304AD0 /* Sources */,
+				0AF88D5D23EE7CBE00304AD0 /* Frameworks */,
+				0AF88D5E23EE7CBE00304AD0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leetcode - 572 另一个树的子树";
+			productName = "leetcode - 572 另一个树的子树";
+			productReference = 0AF88D6023EE7CBE00304AD0 /* leetcode - 572 另一个树的子树 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0AF88D6A23EE814C00304AD0 /* leetcode- 124 二叉树的最大路径和 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF88D6F23EE814C00304AD0 /* Build configuration list for PBXNativeTarget "leetcode- 124 二叉树的最大路径和" */;
+			buildPhases = (
+				0AF88D6723EE814C00304AD0 /* Sources */,
+				0AF88D6823EE814C00304AD0 /* Frameworks */,
+				0AF88D6923EE814C00304AD0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leetcode- 124 二叉树的最大路径和";
+			productName = "leetcode- 124 二叉树的最大路径和";
+			productReference = 0AF88D6B23EE814C00304AD0 /* leetcode- 124 二叉树的最大路径和 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0AF88D7623EE84F400304AD0 /* leetcode- 1001 二叉树的下一个节点 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF88D7B23EE84F400304AD0 /* Build configuration list for PBXNativeTarget "leetcode- 1001 二叉树的下一个节点" */;
+			buildPhases = (
+				0AF88D7323EE84F400304AD0 /* Sources */,
+				0AF88D7423EE84F400304AD0 /* Frameworks */,
+				0AF88D7523EE84F400304AD0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leetcode- 1001 二叉树的下一个节点";
+			productName = "leetcode- 1001 二叉树的下一个节点";
+			productReference = 0AF88D7723EE84F400304AD0 /* leetcode- 1001 二叉树的下一个节点 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0AF88D8123EE88AD00304AD0 /* leetcode- 671 二叉树中第二小的节点 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF88D8623EE88AD00304AD0 /* Build configuration list for PBXNativeTarget "leetcode- 671 二叉树中第二小的节点" */;
+			buildPhases = (
+				0AF88D7E23EE88AD00304AD0 /* Sources */,
+				0AF88D7F23EE88AD00304AD0 /* Frameworks */,
+				0AF88D8023EE88AD00304AD0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leetcode- 671 二叉树中第二小的节点";
+			productName = "leetcode- 671 二叉树中第二小的节点";
+			productReference = 0AF88D8223EE88AD00304AD0 /* leetcode- 671 二叉树中第二小的节点 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0AF88D8C23EE88DA00304AD0 /* leetcode-230 二叉搜索树第K小的元素 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AF88D9123EE88DA00304AD0 /* Build configuration list for PBXNativeTarget "leetcode-230 二叉搜索树第K小的元素" */;
+			buildPhases = (
+				0AF88D8923EE88DA00304AD0 /* Sources */,
+				0AF88D8A23EE88DA00304AD0 /* Frameworks */,
+				0AF88D8B23EE88DA00304AD0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leetcode-230 二叉搜索树第K小的元素";
+			productName = "leetcode-230 二叉搜索树第K小的元素";
+			productReference = 0AF88D8D23EE88DA00304AD0 /* leetcode-230 二叉搜索树第K小的元素 */;
+			productType = "com.apple.product-type.tool";
+		};
 		0AF9D0792243242F008AC9DE /* leetcode-67二进制求和 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AF9D0802243242F008AC9DE /* Build configuration list for PBXNativeTarget "leetcode-67二进制求和" */;
@@ -3652,6 +3884,7 @@
 		0A9CB1E7223B8D1C0079C561 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = dfjr;
 				TargetAttributes = {
@@ -3871,6 +4104,21 @@
 					0AF88D3623ED91B400304AD0 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					0AF88D5F23EE7CBE00304AD0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0AF88D6A23EE814C00304AD0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0AF88D7623EE84F400304AD0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0AF88D8123EE88AD00304AD0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0AF88D8C23EE88DA00304AD0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					0AF9D0792243242F008AC9DE = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -3945,6 +4193,7 @@
 				0AD19FC723E677DF00A0E2EB /* leetcode-107 二叉树的层次遍历 II */,
 				0A9AC10423E852FC009E2264 /* leetcode-109 有序链表转换二叉搜索树 */,
 				0AD19FD323E67B8A00A0E2EB /* leetcode-110 平衡二叉树 */,
+				0AF88D6A23EE814C00304AD0 /* leetcode- 124 二叉树的最大路径和 */,
 				0AD19FE923E67FB800A0E2EB /* leetcode-125 验证回文串 */,
 				0AD19FF523E6822700A0E2EB /* leetcode-131 分割回文串 */,
 				0A9AC0E023E7D463009E2264 /* leetcode-136 只出现一次的数字 */,
@@ -3954,6 +4203,7 @@
 				0AF88CD223ED249000304AD0 /* leetcode-155 最小栈 */,
 				0A2CF0E123EBBF1D0054EF33 /* leetcode-160 找到两个单链表相交的起始节点 */,
 				0A9AC11123E94E2D009E2264 /* leetcode-167 两数之和 II - 输入有序数组 */,
+				0AF88D8C23EE88DA00304AD0 /* leetcode-230 二叉搜索树第K小的元素 */,
 				0A9AC0F823E8140B009E2264 /* leetcode-260 只出现一次的数字 III */,
 				0AF88CC723ED21C700304AD0 /* leetcode-344 反转字符串 */,
 				0AF88CE923ED27DD00304AD0 /* leetcode-383 赎金信 */,
@@ -3961,10 +4211,13 @@
 				0AF88D2B23ED89DE00304AD0 /* leetcode-443 压缩字符串 */,
 				0AF88D3623ED91B400304AD0 /* leetcode-459   重复的子字符串 */,
 				0AF88CFF23ED2D6900304AD0 /* leetcode-541 反转字符串 II */,
+				0AF88D5F23EE7CBE00304AD0 /* leetcode - 572 另一个树的子树 */,
+				0AF88D8123EE88AD00304AD0 /* leetcode- 671 二叉树中第二小的节点 */,
 				0AF88D2023ED869D00304AD0 /* leetcode-680 验证回文字符串 Ⅱ */,
 				0AF88D1523ED7D6100304AD0 /* leetcode-686  重复叠加字符串匹配 */,
 				0A2CF10323EBE5EE0054EF33 /* leetcode-999 寻找无序数组中第K大的数 */,
 				0ABA931C23EC6C5E003A2F03 /* leetcode-1000 无序数组中找到最大值和最小值 */,
+				0AF88D7623EE84F400304AD0 /* leetcode- 1001 二叉树的下一个节点 */,
 				0ABA933323EC831C003A2F03 /* leetcode-Array */,
 				0A2EEAE0224A21AA00E5EDB4 /* Graph-Representation */,
 				0AA26B7E224CCD1A00A29E79 /* 索引堆 */,
@@ -4551,6 +4804,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AF88D3A23ED91B400304AD0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88D5C23EE7CBE00304AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF88D6323EE7CBE00304AD0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88D6723EE814C00304AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF88D6E23EE814C00304AD0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88D7323EE84F400304AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF88D7A23EE84F400304AD0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88D7E23EE88AD00304AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF88D8523EE88AD00304AD0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AF88D8923EE88DA00304AD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF88D9023EE88DA00304AD0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6132,6 +6425,116 @@
 			};
 			name = Release;
 		};
+		0AF88D6523EE7CBE00304AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AF88D6623EE7CBE00304AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0AF88D7023EE814C00304AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AF88D7123EE814C00304AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0AF88D7C23EE84F400304AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AF88D7D23EE84F400304AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0AF88D8723EE88AD00304AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AF88D8823EE88AD00304AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0AF88D9223EE88DA00304AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AF88D9323EE88DA00304AD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0AF9D07E2243242F008AC9DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -6860,6 +7263,51 @@
 			buildConfigurations = (
 				0AF88D3C23ED91B400304AD0 /* Debug */,
 				0AF88D3D23ED91B400304AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF88D6423EE7CBE00304AD0 /* Build configuration list for PBXNativeTarget "leetcode - 572 另一个树的子树" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF88D6523EE7CBE00304AD0 /* Debug */,
+				0AF88D6623EE7CBE00304AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF88D6F23EE814C00304AD0 /* Build configuration list for PBXNativeTarget "leetcode- 124 二叉树的最大路径和" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF88D7023EE814C00304AD0 /* Debug */,
+				0AF88D7123EE814C00304AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF88D7B23EE84F400304AD0 /* Build configuration list for PBXNativeTarget "leetcode- 1001 二叉树的下一个节点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF88D7C23EE84F400304AD0 /* Debug */,
+				0AF88D7D23EE84F400304AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF88D8623EE88AD00304AD0 /* Build configuration list for PBXNativeTarget "leetcode- 671 二叉树中第二小的节点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF88D8723EE88AD00304AD0 /* Debug */,
+				0AF88D8823EE88AD00304AD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AF88D9123EE88DA00304AD0 /* Build configuration list for PBXNativeTarget "leetcode-230 二叉搜索树第K小的元素" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AF88D9223EE88DA00304AD0 /* Debug */,
+				0AF88D9323EE88DA00304AD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
