@@ -29,6 +29,8 @@
 		0A3D871B223F9F0D005F499E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D871A223F9F0D005F499E /* main.cpp */; };
 		0A3D8726223FA25B005F499E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D8725223FA25B005F499E /* main.cpp */; };
 		0A3D8731223FA327005F499E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D8730223FA327005F499E /* main.cpp */; };
+		0A52526223EF72B300D94E8A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A52526123EF72B300D94E8A /* main.cpp */; };
+		0A52526D23EF832500D94E8A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A52526C23EF832500D94E8A /* main.cpp */; };
 		0A5C2E8923A49B110023136E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C2E8823A49B110023136E /* main.cpp */; };
 		0A5C2E9423A4A4C80023136E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A5C2E9323A4A4C80023136E /* main.cpp */; };
 		0A60111F23AB5F4D004D7983 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A60111E23AB5F4D004D7983 /* main.cpp */; };
@@ -299,6 +301,24 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		0A3D872C223FA327005F499E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0A52525D23EF72B300D94E8A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0A52526823EF832500D94E8A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -881,6 +901,10 @@
 		0A3D8725223FA25B005F499E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0A3D872E223FA327005F499E /* 希尔排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "希尔排序"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3D8730223FA327005F499E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0A52525F23EF72B300D94E8A /* leetcode- 120 三角形最小路径和 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode- 120 三角形最小路径和"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A52526123EF72B300D94E8A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0A52526A23EF832500D94E8A /* leetcode- 122 买卖股票的最佳时机 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode- 122 买卖股票的最佳时机"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A52526C23EF832500D94E8A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0A5C2E8623A49B110023136E /* leetcode-94二叉树的中序遍历 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-94二叉树的中序遍历"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5C2E8823A49B110023136E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0A5C2E9123A4A4C80023136E /* leetcode-02两数相加 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-02两数相加"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1208,6 +1232,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0A3D872B223FA327005F499E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A52525C23EF72B300D94E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A52526723EF832500D94E8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1849,6 +1887,22 @@
 			path = "希尔排序";
 			sourceTree = "<group>";
 		};
+		0A52526023EF72B300D94E8A /* leetcode- 120 三角形最小路径和 */ = {
+			isa = PBXGroup;
+			children = (
+				0A52526123EF72B300D94E8A /* main.cpp */,
+			);
+			path = "leetcode- 120 三角形最小路径和";
+			sourceTree = "<group>";
+		};
+		0A52526B23EF832500D94E8A /* leetcode- 122 买卖股票的最佳时机 */ = {
+			isa = PBXGroup;
+			children = (
+				0A52526C23EF832500D94E8A /* main.cpp */,
+			);
+			path = "leetcode- 122 买卖股票的最佳时机";
+			sourceTree = "<group>";
+		};
 		0A5C2E8723A49B110023136E /* leetcode-94二叉树的中序遍历 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1976,9 +2030,10 @@
 				0AD19FC923E677DF00A0E2EB /* leetcode-107 二叉树的层次遍历 II */,
 				0A9AC10623E852FC009E2264 /* leetcode-109 有序链表转换二叉搜索树 */,
 				0AD19FD523E67B8A00A0E2EB /* leetcode-110 平衡二叉树 */,
+				0A52526023EF72B300D94E8A /* leetcode- 120 三角形最小路径和 */,
 				0AF88D6C23EE814C00304AD0 /* leetcode- 124 二叉树的最大路径和 */,
 				0AD19FEB23E67FB800A0E2EB /* leetcode-125 验证回文串 */,
-				0A9CB209223B9EC60079C561 /* leetcode-217元素去重 */,
+				0A52526B23EF832500D94E8A /* leetcode- 122 买卖股票的最佳时机 */,
 				0AD19FF723E6822700A0E2EB /* leetcode-131 分割回文串 */,
 				0A9AC0E223E7D463009E2264 /* leetcode-136 只出现一次的数字 */,
 				0A9AC0EF23E8103D009E2264 /* leetcode-137 只出现一次的数字 II */,
@@ -1987,6 +2042,7 @@
 				0AF88CD423ED249000304AD0 /* leetcode-155 最小栈 */,
 				0A2CF0E323EBBF1D0054EF33 /* leetcode-160 找到两个单链表相交的起始节点 */,
 				0A9AC11323E94E2D009E2264 /* leetcode-167 两数之和 II - 输入有序数组 */,
+				0A9CB209223B9EC60079C561 /* leetcode-217元素去重 */,
 				0AF88D8E23EE88DA00304AD0 /* leetcode-230 二叉搜索树第K小的元素 */,
 				0A9AC0FA23E8140B009E2264 /* leetcode-260 只出现一次的数字 III */,
 				0AF88CC923ED21C700304AD0 /* leetcode-344 反转字符串 */,
@@ -2098,6 +2154,8 @@
 				0AF88D7723EE84F400304AD0 /* leetcode- 1001 二叉树的下一个节点 */,
 				0AF88D8223EE88AD00304AD0 /* leetcode- 671 二叉树中第二小的节点 */,
 				0AF88D8D23EE88DA00304AD0 /* leetcode-230 二叉搜索树第K小的元素 */,
+				0A52525F23EF72B300D94E8A /* leetcode- 120 三角形最小路径和 */,
+				0A52526A23EF832500D94E8A /* leetcode- 122 买卖股票的最佳时机 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2907,6 +2965,40 @@
 			name = "希尔排序";
 			productName = "希尔排序";
 			productReference = 0A3D872E223FA327005F499E /* 希尔排序 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0A52525E23EF72B300D94E8A /* leetcode- 120 三角形最小路径和 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A52526523EF72B300D94E8A /* Build configuration list for PBXNativeTarget "leetcode- 120 三角形最小路径和" */;
+			buildPhases = (
+				0A52525B23EF72B300D94E8A /* Sources */,
+				0A52525C23EF72B300D94E8A /* Frameworks */,
+				0A52525D23EF72B300D94E8A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leetcode- 120 三角形最小路径和";
+			productName = "leetcode- 120 三角形最小路径和";
+			productReference = 0A52525F23EF72B300D94E8A /* leetcode- 120 三角形最小路径和 */;
+			productType = "com.apple.product-type.tool";
+		};
+		0A52526923EF832500D94E8A /* leetcode- 122 买卖股票的最佳时机 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A52526E23EF832600D94E8A /* Build configuration list for PBXNativeTarget "leetcode- 122 买卖股票的最佳时机" */;
+			buildPhases = (
+				0A52526623EF832500D94E8A /* Sources */,
+				0A52526723EF832500D94E8A /* Frameworks */,
+				0A52526823EF832500D94E8A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leetcode- 122 买卖股票的最佳时机";
+			productName = "leetcode- 122 买卖股票的最佳时机";
+			productReference = 0A52526A23EF832500D94E8A /* leetcode- 122 买卖股票的最佳时机 */;
 			productType = "com.apple.product-type.tool";
 		};
 		0A5C2E8523A49B110023136E /* leetcode-94二叉树的中序遍历 */ = {
@@ -3960,6 +4052,12 @@
 					0A3D872D223FA327005F499E = {
 						CreatedOnToolsVersion = 10.0;
 					};
+					0A52525E23EF72B300D94E8A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					0A52526923EF832500D94E8A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 					0A5C2E8523A49B110023136E = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -4193,6 +4291,8 @@
 				0AD19FC723E677DF00A0E2EB /* leetcode-107 二叉树的层次遍历 II */,
 				0A9AC10423E852FC009E2264 /* leetcode-109 有序链表转换二叉搜索树 */,
 				0AD19FD323E67B8A00A0E2EB /* leetcode-110 平衡二叉树 */,
+				0A52525E23EF72B300D94E8A /* leetcode- 120 三角形最小路径和 */,
+				0A52526923EF832500D94E8A /* leetcode- 122 买卖股票的最佳时机 */,
 				0AF88D6A23EE814C00304AD0 /* leetcode- 124 二叉树的最大路径和 */,
 				0AD19FE923E67FB800A0E2EB /* leetcode-125 验证回文串 */,
 				0AD19FF523E6822700A0E2EB /* leetcode-131 分割回文串 */,
@@ -4420,6 +4520,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A3D8731223FA327005F499E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A52525B23EF72B300D94E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A52526223EF72B300D94E8A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A52526623EF832500D94E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A52526D23EF832500D94E8A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5326,6 +5442,50 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A52526323EF72B300D94E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A52526423EF72B300D94E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A52526F23EF832600D94E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A52527023EF832600D94E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -6822,6 +6982,24 @@
 			buildConfigurations = (
 				0A3D8733223FA327005F499E /* Debug */,
 				0A3D8734223FA327005F499E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A52526523EF72B300D94E8A /* Build configuration list for PBXNativeTarget "leetcode- 120 三角形最小路径和" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A52526323EF72B300D94E8A /* Debug */,
+				0A52526423EF72B300D94E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A52526E23EF832600D94E8A /* Build configuration list for PBXNativeTarget "leetcode- 122 买卖股票的最佳时机" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A52526F23EF832600D94E8A /* Debug */,
+				0A52527023EF832600D94E8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
