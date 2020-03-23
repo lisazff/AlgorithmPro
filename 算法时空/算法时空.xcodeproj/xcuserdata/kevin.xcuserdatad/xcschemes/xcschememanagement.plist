@@ -47,12 +47,12 @@
 		<key>leetcode - 572 另一个树的子树.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>78</integer>
+			<integer>75</integer>
 		</dict>
 		<key>leetcode- 1001 二叉树的下一个节点.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>81</integer>
+			<integer>80</integer>
 		</dict>
 		<key>leetcode- 1002 动态规划.xcscheme_^#shared#^_</key>
 		<dict>
@@ -77,12 +77,12 @@
 		<key>leetcode- 671 二叉树中第二小的节点.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>79</integer>
+			<integer>81</integer>
 		</dict>
 		<key>leetcode- 背包问题总结.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>84</integer>
+			<integer>85</integer>
 		</dict>
 		<key>leetcode-01两数之和.xcscheme</key>
 		<dict>
@@ -277,7 +277,7 @@
 		<key>leetcode-239 滑动窗口最大值.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>85</integer>
+			<integer>74</integer>
 		</dict>
 		<key>leetcode-24两两交换链表中的节点.xcscheme_^#shared#^_</key>
 		<dict>
@@ -287,7 +287,7 @@
 		<key>leetcode-260 只出现一次的数字 III.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>74</integer>
+			<integer>76</integer>
 		</dict>
 		<key>leetcode-26删除排序数组中的重复项.xcscheme</key>
 		<dict>
@@ -322,7 +322,7 @@
 		<key>leetcode-344 反转字符串.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>75</integer>
+			<integer>77</integer>
 		</dict>
 		<key>leetcode-35搜索插入位置.xcscheme</key>
 		<dict>
@@ -347,12 +347,12 @@
 		<key>leetcode-443 压缩字符串.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>76</integer>
+			<integer>78</integer>
 		</dict>
 		<key>leetcode-459   重复的子字符串.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>77</integer>
+			<integer>79</integer>
 		</dict>
 		<key>leetcode-53最大子序和.xcscheme</key>
 		<dict>
@@ -407,7 +407,7 @@
 		<key>leetcode-680 验证回文字符串 Ⅱ.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>80</integer>
+			<integer>82</integer>
 		</dict>
 		<key>leetcode-686  重复叠加字符串匹配.xcscheme_^#shared#^_</key>
 		<dict>
@@ -477,7 +477,7 @@
 		<key>leetcode-Array.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>82</integer>
+			<integer>84</integer>
 		</dict>
 		<key>元素去重.xcscheme</key>
 		<dict>

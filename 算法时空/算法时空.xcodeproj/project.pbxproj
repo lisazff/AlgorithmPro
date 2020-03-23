@@ -938,10 +938,6 @@
 		0A52527523EF964B00D94E8A /* leetcode- 背包问题总结 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode- 背包问题总结"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A52527723EF964B00D94E8A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0A52527C23EF9CDE00D94E8A /* 背包问题总结.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背包问题总结.png"; sourceTree = "<group>"; };
-		0A52527D23EF9D0400D94E8A /* leetcode-solution.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "leetcode-solution.pdf"; sourceTree = "<group>"; };
-		0A52527E23EF9D0400D94E8A /* leetcode-cpp.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "leetcode-cpp.pdf"; sourceTree = "<group>"; };
-		0A52527F23EF9D3300D94E8A /* 算法图解.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "算法图解.pdf"; sourceTree = "<group>"; };
-		0A52528023EF9E0C00D94E8A /* 漫画算法-小灰的算法之旅.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "漫画算法-小灰的算法之旅.pdf"; sourceTree = "<group>"; };
 		0A5C2E8623A49B110023136E /* leetcode-94二叉树的中序遍历 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-94二叉树的中序遍历"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5C2E8823A49B110023136E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0A5C2E9123A4A4C80023136E /* leetcode-02两数相加 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-02两数相加"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2071,10 +2067,6 @@
 		0A9CB1E6223B8D1C0079C561 = {
 			isa = PBXGroup;
 			children = (
-				0A52528023EF9E0C00D94E8A /* 漫画算法-小灰的算法之旅.pdf */,
-				0A52527F23EF9D3300D94E8A /* 算法图解.pdf */,
-				0A52527E23EF9D0400D94E8A /* leetcode-cpp.pdf */,
-				0A52527D23EF9D0400D94E8A /* leetcode-solution.pdf */,
 				0A9CB1F1223B8D1C0079C561 /* 插入排序 */,
 				0A9CB1FE223B9B380079C561 /* 选择排序 */,
 				0A3D8724223FA25B005F499E /* 冒泡排序 */,
