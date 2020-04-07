@@ -82,7 +82,7 @@
 		<key>leetcode- 背包问题总结.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>85</integer>
+			<integer>86</integer>
 		</dict>
 		<key>leetcode-01两数之和.xcscheme</key>
 		<dict>
@@ -133,6 +133,16 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>55</integer>
+		</dict>
+		<key>leetcode-1001 调整数组顺序使奇数位于偶数前面.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>85</integer>
+		</dict>
+		<key>leetcode-1003 调整数组顺序使奇数位于偶数前面.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>87</integer>
 		</dict>
 		<key>leetcode-100相同的树.xcscheme</key>
 		<dict>
