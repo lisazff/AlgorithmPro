@@ -47,17 +47,17 @@
 		<key>leetcode - 572 另一个树的子树.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>80</integer>
+			<integer>81</integer>
 		</dict>
 		<key>leetcode- 1001 二叉树的下一个节点.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>87</integer>
+			<integer>88</integer>
 		</dict>
 		<key>leetcode- 1002 动态规划.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>89</integer>
+			<integer>90</integer>
 		</dict>
 		<key>leetcode- 120 三角形最小路径和.xcscheme_^#shared#^_</key>
 		<dict>
@@ -74,10 +74,15 @@
 			<key>orderHint</key>
 			<integer>60</integer>
 		</dict>
+		<key>leetcode- 243 回文链表.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>73</integer>
+		</dict>
 		<key>leetcode- 671 二叉树中第二小的节点.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>81</integer>
+			<integer>82</integer>
 		</dict>
 		<key>leetcode- 背包问题总结.xcscheme_^#shared#^_</key>
 		<dict>
@@ -132,17 +137,17 @@
 		<key>leetcode-1000 无序数组中找到最大值和最小值.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>85</integer>
+			<integer>86</integer>
 		</dict>
 		<key>leetcode-1001 调整数组顺序使奇数位于偶数前面.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>86</integer>
+			<integer>87</integer>
 		</dict>
 		<key>leetcode-1003 调整数组顺序使奇数位于偶数前面.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>88</integer>
+			<integer>89</integer>
 		</dict>
 		<key>leetcode-100相同的树.xcscheme</key>
 		<dict>
@@ -307,7 +312,7 @@
 		<key>leetcode-260 只出现一次的数字 III.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>73</integer>
+			<integer>74</integer>
 		</dict>
 		<key>leetcode-26删除排序数组中的重复项.xcscheme</key>
 		<dict>
@@ -342,7 +347,7 @@
 		<key>leetcode-344 反转字符串.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>74</integer>
+			<integer>75</integer>
 		</dict>
 		<key>leetcode-35搜索插入位置.xcscheme</key>
 		<dict>
@@ -357,22 +362,22 @@
 		<key>leetcode-383 赎金信.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>75</integer>
+			<integer>76</integer>
 		</dict>
 		<key>leetcode-387 字符串中的第一个唯一字符.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>76</integer>
+			<integer>77</integer>
 		</dict>
 		<key>leetcode-443 压缩字符串.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>77</integer>
+			<integer>78</integer>
 		</dict>
 		<key>leetcode-459   重复的子字符串.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>78</integer>
+			<integer>79</integer>
 		</dict>
 		<key>leetcode-53最大子序和.xcscheme</key>
 		<dict>
@@ -387,7 +392,7 @@
 		<key>leetcode-541 反转字符串 II.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>79</integer>
+			<integer>80</integer>
 		</dict>
 		<key>leetcode-58最后一个单词的长度.xcscheme</key>
 		<dict>
@@ -427,12 +432,12 @@
 		<key>leetcode-680 验证回文字符串 Ⅱ.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>82</integer>
+			<integer>83</integer>
 		</dict>
 		<key>leetcode-686  重复叠加字符串匹配.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>83</integer>
+			<integer>84</integer>
 		</dict>
 		<key>leetcode-70爬楼梯.xcscheme</key>
 		<dict>
@@ -492,7 +497,7 @@
 		<key>leetcode-999 寻找无序数组中第K大的数.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>84</integer>
+			<integer>85</integer>
 		</dict>
 		<key>leetcode-Array.xcscheme_^#shared#^_</key>
 		<dict>
@@ -858,6 +863,11 @@
 			<true/>
 		</dict>
 		<key>0AA11FDB247129B500338261</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0AA11FE624716D3100338261</key>
 		<dict>
 			<key>primary</key>
 			<true/>

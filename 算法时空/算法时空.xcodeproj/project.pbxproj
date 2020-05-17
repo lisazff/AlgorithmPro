@@ -50,6 +50,7 @@
 		0A9CB20B223B9EC60079C561 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A9CB20A223B9EC60079C561 /* main.cpp */; };
 		0AA11FD42471296200338261 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AA11FD32471296200338261 /* main.cpp */; };
 		0AA11FDF247129B500338261 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AA11FDE247129B500338261 /* main.cpp */; };
+		0AA11FEA24716D3100338261 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AA11FE924716D3100338261 /* main.cpp */; };
 		0AA26B7A224CBFFF00A29E79 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AA26B77224CBFFF00A29E79 /* main.cpp */; };
 		0AA26B88224CCD2F00A29E79 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AA26B86224CCD2F00A29E79 /* main.cpp */; };
 		0AA3E20A2242146D0095502C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AA3E2092242146D0095502C /* main.cpp */; };
@@ -505,6 +506,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		0AA11FDA247129B500338261 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		0AA11FE524716D3100338261 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -1033,6 +1043,9 @@
 		0AA11FD32471296200338261 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0AA11FDC247129B500338261 /* leetcode-16 部分排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-16 部分排序"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AA11FDE247129B500338261 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0AA11FE724716D3100338261 /* leetcode- 243 回文链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode- 243 回文链表"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA11FE924716D3100338261 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0AA11FEE24716E4200338261 /* leetcode- 243 回文链表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leetcode- 243 回文链表.png"; sourceTree = "<group>"; };
 		0AA26B71224CBFFE00A29E79 /* InsertionSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
 		0AA26B72224CBFFF00A29E79 /* QuickSort3Ways.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort3Ways.h; sourceTree = "<group>"; };
 		0AA26B73224CBFFF00A29E79 /* Heap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Heap.h; sourceTree = "<group>"; };
@@ -1470,6 +1483,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0AA11FD9247129B500338261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA11FE424716D3100338261 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2222,6 +2242,7 @@
 				0A9CB209223B9EC60079C561 /* leetcode-217元素去重 */,
 				0AF88D8E23EE88DA00304AD0 /* leetcode-230 二叉搜索树第K小的元素 */,
 				0A65D6C623F25D8100C6DB14 /* leetcode-239 滑动窗口最大值 */,
+				0AA11FE824716D3100338261 /* leetcode- 243 回文链表 */,
 				0A9AC0FA23E8140B009E2264 /* leetcode-260 只出现一次的数字 III */,
 				0AF88CC923ED21C700304AD0 /* leetcode-344 反转字符串 */,
 				0AF88CEB23ED27DD00304AD0 /* leetcode-383 赎金信 */,
@@ -2336,6 +2357,7 @@
 				0A6E68AC242900820052C716 /* leetcode-1003 调整数组顺序使奇数位于偶数前面 */,
 				0AA11FD12471296200338261 /* leetcode-164  最大间距 */,
 				0AA11FDC247129B500338261 /* leetcode-16 部分排序 */,
+				0AA11FE724716D3100338261 /* leetcode- 243 回文链表 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2380,6 +2402,15 @@
 				0AA11FDE247129B500338261 /* main.cpp */,
 			);
 			path = "leetcode-16 部分排序";
+			sourceTree = "<group>";
+		};
+		0AA11FE824716D3100338261 /* leetcode- 243 回文链表 */ = {
+			isa = PBXGroup;
+			children = (
+				0AA11FE924716D3100338261 /* main.cpp */,
+				0AA11FEE24716E4200338261 /* leetcode- 243 回文链表.png */,
+			);
+			path = "leetcode- 243 回文链表";
 			sourceTree = "<group>";
 		};
 		0AA26B80224CCD1B00A29E79 /* 索引堆 */ = {
@@ -3537,6 +3568,23 @@
 			productReference = 0AA11FDC247129B500338261 /* leetcode-16 部分排序 */;
 			productType = "com.apple.product-type.tool";
 		};
+		0AA11FE624716D3100338261 /* leetcode- 243 回文链表 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AA11FEB24716D3100338261 /* Build configuration list for PBXNativeTarget "leetcode- 243 回文链表" */;
+			buildPhases = (
+				0AA11FE324716D3100338261 /* Sources */,
+				0AA11FE424716D3100338261 /* Frameworks */,
+				0AA11FE524716D3100338261 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leetcode- 243 回文链表";
+			productName = "leetcode- 243 回文链表";
+			productReference = 0AA11FE724716D3100338261 /* leetcode- 243 回文链表 */;
+			productType = "com.apple.product-type.tool";
+		};
 		0AA26B7E224CCD1A00A29E79 /* 索引堆 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AA26B83224CCD1B00A29E79 /* Build configuration list for PBXNativeTarget "索引堆" */;
@@ -4433,6 +4481,9 @@
 					0AA11FDB247129B500338261 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
+					0AA11FE624716D3100338261 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
 					0AA26B7E224CCD1A00A29E79 = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -4652,6 +4703,7 @@
 				0A9AC11123E94E2D009E2264 /* leetcode-167 两数之和 II - 输入有序数组 */,
 				0AF88D8C23EE88DA00304AD0 /* leetcode-230 二叉搜索树第K小的元素 */,
 				0A65D6C423F25D8100C6DB14 /* leetcode-239 滑动窗口最大值 */,
+				0AA11FE624716D3100338261 /* leetcode- 243 回文链表 */,
 				0A9AC0F823E8140B009E2264 /* leetcode-260 只出现一次的数字 III */,
 				0AF88CC723ED21C700304AD0 /* leetcode-344 反转字符串 */,
 				0AF88CE923ED27DD00304AD0 /* leetcode-383 赎金信 */,
@@ -5038,6 +5090,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AA11FDF247129B500338261 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA11FE324716D3100338261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA11FEA24716D3100338261 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6407,6 +6467,28 @@
 			};
 			name = Release;
 		};
+		0AA11FEC24716D3100338261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0AA11FED24716D3100338261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU4XLCPFAU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		0AA26B84224CCD1B00A29E79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -7741,6 +7823,15 @@
 			buildConfigurations = (
 				0AA11FE1247129B500338261 /* Debug */,
 				0AA11FE2247129B500338261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AA11FEB24716D3100338261 /* Build configuration list for PBXNativeTarget "leetcode- 243 回文链表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA11FEC24716D3100338261 /* Debug */,
+				0AA11FED24716D3100338261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
