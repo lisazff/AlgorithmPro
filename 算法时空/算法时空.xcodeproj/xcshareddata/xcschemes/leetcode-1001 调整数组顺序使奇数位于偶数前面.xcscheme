@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1000"
+   LastUpgradeVersion = "1140"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0A3D8717223F9F0D005F499E"
-               BuildableName = "&#x5feb;&#x901f;&#x6392;&#x5e8f;"
-               BlueprintName = "&#x5feb;&#x901f;&#x6392;&#x5e8f;"
+               BlueprintIdentifier = "0A6E68A02428FFFB0052C716"
+               BuildableName = "leetcode-1001 &#x8c03;&#x6574;&#x6570;&#x7ec4;&#x987a;&#x5e8f;&#x4f7f;&#x5947;&#x6570;&#x4f4d;&#x4e8e;&#x5076;&#x6570;&#x524d;&#x9762;"
+               BlueprintName = "leetcode-1001 &#x8c03;&#x6574;&#x6570;&#x7ec4;&#x987a;&#x5e8f;&#x4f7f;&#x5947;&#x6570;&#x4f4d;&#x4e8e;&#x5076;&#x6570;&#x524d;&#x9762;"
                ReferencedContainer = "container:&#x7b97;&#x6cd5;&#x65f6;&#x7a7a;.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,15 +27,6 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A3D8717223F9F0D005F499E"
-            BuildableName = "&#x5feb;&#x901f;&#x6392;&#x5e8f;"
-            BlueprintName = "&#x5feb;&#x901f;&#x6392;&#x5e8f;"
-            ReferencedContainer = "container:&#x7b97;&#x6cd5;&#x65f6;&#x7a7a;.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <Testables>
       </Testables>
    </TestAction>
@@ -53,9 +44,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A3D8717223F9F0D005F499E"
-            BuildableName = "&#x5feb;&#x901f;&#x6392;&#x5e8f;"
-            BlueprintName = "&#x5feb;&#x901f;&#x6392;&#x5e8f;"
+            BlueprintIdentifier = "0A6E68A02428FFFB0052C716"
+            BuildableName = "leetcode-1001 &#x8c03;&#x6574;&#x6570;&#x7ec4;&#x987a;&#x5e8f;&#x4f7f;&#x5947;&#x6570;&#x4f4d;&#x4e8e;&#x5076;&#x6570;&#x524d;&#x9762;"
+            BlueprintName = "leetcode-1001 &#x8c03;&#x6574;&#x6570;&#x7ec4;&#x987a;&#x5e8f;&#x4f7f;&#x5947;&#x6570;&#x4f4d;&#x4e8e;&#x5076;&#x6570;&#x524d;&#x9762;"
             ReferencedContainer = "container:&#x7b97;&#x6cd5;&#x65f6;&#x7a7a;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -70,9 +61,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A3D8717223F9F0D005F499E"
-            BuildableName = "&#x5feb;&#x901f;&#x6392;&#x5e8f;"
-            BlueprintName = "&#x5feb;&#x901f;&#x6392;&#x5e8f;"
+            BlueprintIdentifier = "0A6E68A02428FFFB0052C716"
+            BuildableName = "leetcode-1001 &#x8c03;&#x6574;&#x6570;&#x7ec4;&#x987a;&#x5e8f;&#x4f7f;&#x5947;&#x6570;&#x4f4d;&#x4e8e;&#x5076;&#x6570;&#x524d;&#x9762;"
+            BlueprintName = "leetcode-1001 &#x8c03;&#x6574;&#x6570;&#x7ec4;&#x987a;&#x5e8f;&#x4f7f;&#x5947;&#x6570;&#x4f4d;&#x4e8e;&#x5076;&#x6570;&#x524d;&#x9762;"
             ReferencedContainer = "container:&#x7b97;&#x6cd5;&#x65f6;&#x7a7a;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
