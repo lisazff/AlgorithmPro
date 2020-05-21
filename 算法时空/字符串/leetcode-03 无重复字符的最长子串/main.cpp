@@ -71,7 +71,7 @@ public:
             if(j-i+1>max)
                 max = j-i+1;
         }
-        return max
+        return max;
     }
 };
 
