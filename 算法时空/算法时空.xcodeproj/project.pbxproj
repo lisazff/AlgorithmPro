@@ -2286,6 +2286,7 @@
 		0A679845247621BC00D435B9 /* 链表 */ = {
 			isa = PBXGroup;
 			children = (
+				0A5C2E9223A4A4C80023136E /* leetcode-02两数相加 */,
 				0AD2136323E57FCC0083F044 /* leetcode-19 删除链表的倒数第 N 个节点 */,
 				0A26E9042240F77B0085682A /* leetcode-21合并两个有序链表 */,
 				0AD2137423E593110083F044 /* leetcode-23 合并 K 个排序链表 */,
@@ -2306,6 +2307,8 @@
 		0A679846247621F500D435B9 /* 数组 */ = {
 			isa = PBXGroup;
 			children = (
+				0A26E8D82240E1E20085682A /* leetcode-01两数之和 */,
+				0AAD209E23E5758D002B485B /* leetcode-04 三数之和 */,
 				0AA11FDD247129B500338261 /* leetcode-16 部分排序 */,
 				0AA3E229224225260095502C /* leetcode-26删除排序数组中的重复项 */,
 				0AA3E23422422AEA0095502C /* leetcode-27移除元素 */,
@@ -2353,9 +2356,6 @@
 		0A679853247625DC00D435B9 /* 其他题目 */ = {
 			isa = PBXGroup;
 			children = (
-				0A26E8D82240E1E20085682A /* leetcode-01两数之和 */,
-				0A5C2E9223A4A4C80023136E /* leetcode-02两数相加 */,
-				0AAD209E23E5758D002B485B /* leetcode-04 三数之和 */,
 				0A26E8E32240ECDF0085682A /* leetcode-07整数反转 */,
 				0A26E8EE2240EE310085682A /* leetcode-09回文数 */,
 				0AA3E2082242146D0095502C /* leetcode-13罗马数字转整数 */,
