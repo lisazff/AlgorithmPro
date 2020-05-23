@@ -33,16 +33,15 @@
 
 #include <iostream>
 #include <string>
+#include <unordered_set>
 
 using namespace std;
-
-
 class Solution {
 public:
-    int lengthOfLongestSubstring(string s) {
-        int freq[256] = {0};
-        int l = 0, r = -1; //滑动窗口为s[l...r]
-        int res = 0;
+    long lengthOfLongestSubstring(string s) {
+        long freq[256] = {0};
+        long l = 0, r = -1; //滑动窗口为s[l...r]
+        long res = 0;
         // 整个循环从 l == 0; r == -1 这个空窗口开始
         // 到l == s.size(); r == s.size()-1 这个空窗口截止
         // 在每次循环里逐渐改变窗口, 维护freq, 并记录当前窗口中是否找到了一个新的最优值
@@ -59,11 +58,11 @@ public:
         return res;
     }
     
-    int lengthOfLongestSubstrings(string s) {
-        int max=0;
-        int hashmap[130];
-        int n = s.size();
-        for(int i=0,j=0;j<n;j++){//当前判断是否重复的串为s[i..j]
+    long lengthOfLongestSubstrings(string s) {
+        long max=0;
+        long hashmap[130];
+        long n = s.size();
+        for(long i=0,j=0;j<n;j++){//当前判断是否重复的串为s[i..j]
             hashmap[s[j]]++;
             while(hashmap[s[j]]>1){
                 hashmap[s[i++]]--;  //i指针右移
@@ -72,6 +71,23 @@ public:
                 max = j-i+1;
         }
         return max;
+    }
+    
+    int lengthOfLongestSubstringss(string s) {
+        if(s.size() == 0) return 0;
+        unordered_set<char> lookup;
+        int maxStr = 0;
+        int left = 0;
+        for(int i = 0; i < s.size(); i++){
+            while (lookup.find(s[i]) != lookup.end()){
+                lookup.erase(s[left]);
+                left ++;
+            }
+            maxStr = max(maxStr,i-left+1);
+            lookup.insert(s[i]);
+        }
+        return maxStr;
+        
     }
 };
 
